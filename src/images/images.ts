@@ -35,9 +35,7 @@ const Images = (name: string) => {
         return require('./introduction/paint_blue2.png')
 
         case 'intro1':
-            return './introduction/intro1.jpg'
-        //     debugger
-        // return require('./introduction/intro1.jpg')
+        return require('./introduction/intro1.jpg')
         case 'intro2':
         return require('./introduction/intro2.jpg')
         case 'intro3':

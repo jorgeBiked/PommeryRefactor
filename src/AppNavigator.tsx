@@ -22,23 +22,11 @@ function ProfileScreen({ navigation }) {
   );
 }
 
-function HomeScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Button
-        title="Hooommmmeee"
-      />
-      <Button title="Go back" onPress={() => navigation.goBack()} />
-    </View>
-  );
-}
-
 function AppNavigator() {
   return (
       <Stack.Navigator
-        initialRouteName="Profile"
+        initialRouteName="IntroComponent"
       >
-        <Stack.Screen name="Profile" component={ProfileScreen} />
         <Stack.Screen name="TermsComponent" component={TermsComponent} />
         <Stack.Screen name="MapComponent" component={MapComponent} />
         <Stack.Screen name="IntroComponent" component={IntroComponent} />

@@ -50,169 +50,178 @@ interface Style {
   bootleTitle: TextStyle
 }
 
-class TastingComponent extends React.Component<Props, State> {
-
-  player: Video
-
-  constructor(props: Props) {
-    super(props)
-
-    this._goTo = this._goTo.bind(this);
-
-    this.state = {
-      paused: true,
-      showThumbnail: true
-    }
-  }
-  
-  _renderText(matchingString: string) {
-    let html = matchingString.replace(/<bold>/g, "");
-    html = html.replace(/<\/bold>/g, "");
-
-    return html
-  }
-
-  render() {
-
-    return (
-
-      <Container style={styles.container as ViewStyle} >
-        
-        <ScrollView showsVerticalScrollIndicator={false}>
-          <View style={styles.bgBlue}>
-            <View style={styles.bgWhite}></View>
-            <Image source={Images('bg_blue')} resizeMode="contain" style={styles.bgImage}/>
-          </View>
-          <Image style={styles.greenFlower} resizeMethod="resize" resizeMode="contain" source={Images('green1')} />
-
-          <ParsedText style={styles.title}
-          parse={
-            [
-              {pattern: /<bold>[\w\W]*?<\/bold>/, style: styles.bold, renderText: this._renderText}
-            ]
-          }
-          >
-          {locale('tasting1')}
-          </ParsedText>
-          <Text style={styles.subtitle}>{locale('tasting2')}</Text>
-
-          <ScrollView showsHorizontalScrollIndicator={false} horizontal={true}>
-            <View style={styles.bootlesView}>
-              
-              <TouchableWithoutFeedback onPress={() => this._goTo(bootle1)}>
-                <View style={styles.bootleView}>
-                  <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle1.thumbnail)} />
-                  <Text style={styles.bootleTitle}>{bootle1.title}</Text>
-                </View>
-              </TouchableWithoutFeedback>
-              <TouchableWithoutFeedback onPress={() => this._goTo(bootle2)}>
-                <View style={styles.bootleView}>
-                  <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle2.thumbnail)} />
-                  <Text style={styles.bootleTitle}>{bootle2.title}</Text>
-                </View>
-              </TouchableWithoutFeedback>
-              <TouchableWithoutFeedback onPress={() => this._goTo(bootle3)}>
-                <View style={styles.bootleView}>
-                  <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle3.thumbnail)} />
-                  <Text style={styles.bootleTitle}>{bootle3.title}</Text>
-                </View>
-              </TouchableWithoutFeedback>
-              <TouchableWithoutFeedback onPress={() => this._goTo(bootle4)}>
-                <View style={styles.bootleView}>
-                  <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle4.thumbnail)} />
-                  <Text style={styles.bootleTitle}>{bootle4.title}</Text>
-                </View>
-              </TouchableWithoutFeedback>
-              <TouchableWithoutFeedback onPress={() => this._goTo(bootle5)}>
-                <View style={styles.bootleView}>
-                  <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle5.thumbnail)} />
-                  <Text style={styles.bootleTitle}>{bootle5.title}</Text>
-                </View>
-              </TouchableWithoutFeedback>
-
-            </View>
-          </ScrollView>
-
-          <Text style={styles.text}>{locale('tasting3')}</Text>
-
-          <TouchableWithoutFeedback onPress={this._playVideo} >
-          
-            <View style={styles.videoThumbnailView}>
-            
-              <Image style={[styles.thumbnail, {display: this.state.showThumbnail ? 'flex' : 'none'}]} resizeMode="contain" source={Images('video_bg')} />
-            </View>
-
-          </TouchableWithoutFeedback>
-          
-        </ScrollView>
-        
-        <MenuComponent active={tastingPage} expanded={true} tutorial={false} navigation={this.props.navigation}></MenuComponent>
-        
-        <View style={[ {display: this.state.paused ? 'none' : 'flex'}]}>
-            <Video 
-                ref={(ref: any) => {
-                  this.player = ref
-                }} 
-                style={styles.videoView}
-                url={videoUrl} 
-                logo={'https://'}
-                fullScreenOnly
-                onMorePress={() => this._onMorePress()}
-                lockPortraitOnFsExit={true}
-                onFullScreen={(status: boolean) => this._onFullScreen(status)}
-                onEnd={() => this._onEnd()}
-                onPlay={(status: boolean) => this._onPlayPause(status)}
-              />
-        </View>
-        
-      </Container>
-    
-    )
-
-  }
-
-  _goTo(bootle: Bootle) {
-      this.props.navigation.navigate("BootleDetail", {object: bootle})
-  }
-  _playVideo = () => {
-    this.player.play()
-    Orientation.lockToLandscape()
-    this.setState({
-      showThumbnail: false,
-      paused: false
-    })
-  }
-
-  _onFullScreen(status: boolean) {
-
-     if (!status) {
-      this._dismissVideo()
-     }
-  
-  }
-
-  _onPlayPause = (status: boolean) => {
-    if (!status) {
-      this._dismissVideo()
-    }
-  }
-
-  _onEnd = () => {
-    this._dismissVideo()
-  }
-
-  _onMorePress() {
-    this._dismissVideo()
-  }
-
-  _dismissVideo() {
-    Orientation?.lockToPortrait()
-    this.setState({
-      showThumbnail: true,
-      paused: true
-    })
-  }
+const TastingComponent = ({ navigation }) => {
+  console.log('+++ TastingComponent navigation', navigation)
+  return (
+      <View>
+          <Text>TastingComponent</Text>
+      </View> 
+  )
 }
+
+// class TastingComponent extends React.Component<Props, State> {
+
+//   player: Video
+
+//   constructor(props: Props) {
+//     super(props)
+
+//     this._goTo = this._goTo.bind(this);
+
+//     this.state = {
+//       paused: true,
+//       showThumbnail: true
+//     }
+//   }
+  
+//   _renderText(matchingString: string) {
+//     let html = matchingString.replace(/<bold>/g, "");
+//     html = html.replace(/<\/bold>/g, "");
+
+//     return html
+//   }
+
+//   render() {
+
+//     return (
+
+//       <Container style={styles.container as ViewStyle} >
+        
+//         <ScrollView showsVerticalScrollIndicator={false}>
+//           <View style={styles.bgBlue}>
+//             <View style={styles.bgWhite}></View>
+//             <Image source={Images('bg_blue')} resizeMode="contain" style={styles.bgImage}/>
+//           </View>
+//           <Image style={styles.greenFlower} resizeMethod="resize" resizeMode="contain" source={Images('green1')} />
+
+//           <ParsedText style={styles.title}
+//           parse={
+//             [
+//               {pattern: /<bold>[\w\W]*?<\/bold>/, style: styles.bold, renderText: this._renderText}
+//             ]
+//           }
+//           >
+//           {locale('tasting1')}
+//           </ParsedText>
+//           <Text style={styles.subtitle}>{locale('tasting2')}</Text>
+
+//           <ScrollView showsHorizontalScrollIndicator={false} horizontal={true}>
+//             <View style={styles.bootlesView}>
+              
+//               <TouchableWithoutFeedback onPress={() => this._goTo(bootle1)}>
+//                 <View style={styles.bootleView}>
+//                   <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle1.thumbnail)} />
+//                   <Text style={styles.bootleTitle}>{bootle1.title}</Text>
+//                 </View>
+//               </TouchableWithoutFeedback>
+//               <TouchableWithoutFeedback onPress={() => this._goTo(bootle2)}>
+//                 <View style={styles.bootleView}>
+//                   <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle2.thumbnail)} />
+//                   <Text style={styles.bootleTitle}>{bootle2.title}</Text>
+//                 </View>
+//               </TouchableWithoutFeedback>
+//               <TouchableWithoutFeedback onPress={() => this._goTo(bootle3)}>
+//                 <View style={styles.bootleView}>
+//                   <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle3.thumbnail)} />
+//                   <Text style={styles.bootleTitle}>{bootle3.title}</Text>
+//                 </View>
+//               </TouchableWithoutFeedback>
+//               <TouchableWithoutFeedback onPress={() => this._goTo(bootle4)}>
+//                 <View style={styles.bootleView}>
+//                   <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle4.thumbnail)} />
+//                   <Text style={styles.bootleTitle}>{bootle4.title}</Text>
+//                 </View>
+//               </TouchableWithoutFeedback>
+//               <TouchableWithoutFeedback onPress={() => this._goTo(bootle5)}>
+//                 <View style={styles.bootleView}>
+//                   <Image style={styles.bootleImage} resizeMode="contain" source={Images(bootle5.thumbnail)} />
+//                   <Text style={styles.bootleTitle}>{bootle5.title}</Text>
+//                 </View>
+//               </TouchableWithoutFeedback>
+
+//             </View>
+//           </ScrollView>
+
+//           <Text style={styles.text}>{locale('tasting3')}</Text>
+
+//           <TouchableWithoutFeedback onPress={this._playVideo} >
+          
+//             <View style={styles.videoThumbnailView}>
+            
+//               <Image style={[styles.thumbnail, {display: this.state.showThumbnail ? 'flex' : 'none'}]} resizeMode="contain" source={Images('video_bg')} />
+//             </View>
+
+//           </TouchableWithoutFeedback>
+          
+//         </ScrollView>
+        
+//         <MenuComponent active={tastingPage} expanded={true} tutorial={false} navigation={this.props.navigation}></MenuComponent>
+        
+//         <View style={[ {display: this.state.paused ? 'none' : 'flex'}]}>
+//             <Video 
+//                 ref={(ref: any) => {
+//                   this.player = ref
+//                 }} 
+//                 style={styles.videoView}
+//                 url={videoUrl} 
+//                 logo={'https://'}
+//                 fullScreenOnly
+//                 onMorePress={() => this._onMorePress()}
+//                 lockPortraitOnFsExit={true}
+//                 onFullScreen={(status: boolean) => this._onFullScreen(status)}
+//                 onEnd={() => this._onEnd()}
+//                 onPlay={(status: boolean) => this._onPlayPause(status)}
+//               />
+//         </View>
+        
+//       </Container>
+    
+//     )
+
+//   }
+
+//   _goTo(bootle: Bootle) {
+//       this.props.navigation.navigate("BootleDetail", {object: bootle})
+//   }
+//   _playVideo = () => {
+//     this.player.play()
+//     Orientation.lockToLandscape()
+//     this.setState({
+//       showThumbnail: false,
+//       paused: false
+//     })
+//   }
+
+//   _onFullScreen(status: boolean) {
+
+//      if (!status) {
+//       this._dismissVideo()
+//      }
+  
+//   }
+
+//   _onPlayPause = (status: boolean) => {
+//     if (!status) {
+//       this._dismissVideo()
+//     }
+//   }
+
+//   _onEnd = () => {
+//     this._dismissVideo()
+//   }
+
+//   _onMorePress() {
+//     this._dismissVideo()
+//   }
+
+//   _dismissVideo() {
+//     Orientation?.lockToPortrait()
+//     this.setState({
+//       showThumbnail: true,
+//       paused: true
+//     })
+//   }
+// }
 
 const styles = StyleSheet.create<Style>({
   container: {
