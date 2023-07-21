@@ -1,0 +1,1029 @@
+{
+    "fr": {
+        "poi_escalier": {
+            "thumbnail": "pts01",
+            "header": {
+                "title": "1. Le grand escalier",
+                "subtitle": "L'entrée des caves",
+                "image": "map1",
+                "audio": "le_grand_escalier"
+            },
+            "sections": [
+            {
+                "title": "L'entrée des caves",
+                "contentText": "Ce grand escalier, composé de 116 marches, mène aux caves à 30 mètres de profondeur.\n\nAu 19ème siècle, il n y a pas d’électricité dans la cave. Les dames portent des crinolines et les messieurs de beaux chapeaux hauts de forme. Descendre dans la cave est une aventure et l’art qui s’y trouve permet d’enchanter l’œil des visiteurs."
+            },
+            {
+                "title": "L’installation de Pablo Valbuena",
+                "contentText": "Vous pouvez admirer la très belle mise en lumière réalisée par l’artiste espagnol Pablo Valbuena. Cette installation a été spécifiquement conçue pour mettre en valeur les qualités architecturales et les dimensions gigantesques du grand escalier. Lorsque vous descendez, vous allez progresser au rythme des mouvements de lumière donnant vie à cet espace souterrain, redéfinissant la perception de l’espace-temps par un jeu de pleins et de vides.",
+                "footerText": "Installation créée pour l’Expérience Pommery #13, gigantesque ! en 2016"
+            }]
+        },
+        "poi_maradeurs": {
+            "thumbnail": "pts02",
+            "header": {
+                "title": "2. Les maraudeurs",
+                "subtitle": "Œuvre de Gustave Navlet",
+                "image": "map2",
+                "audio": "les_maraudeurs"
+            },
+            "sections": [
+            {
+                "title": "Œuvre de Gustave Navlet",
+                "contentText": "De 1882 à 1885, toujours fidèle à cette volonté d’ennoblissement du produit par l’art, Madame Pommery fit réaliser une série de grands bas-reliefs célébrant le vin par Gustave Navlet, sculpteur champenois. Sculptées directement à même la craie, ces immenses scènes atteignant parfois neuf mètres de long sur six mètres de haut.",
+                "footerText": "Les Maraudeurs, ce premier bas-relief réalisé en 1882, représente, dans l’esprit des putti de la Renaissance, des angelots jouant avec le raisin dans les vignes."
+            }]
+        },
+        "poi_veuve_pommery": {
+            "thumbnail": "pts03",
+            "header": {
+                "title": "3. Galerie Veuve Pommery",
+                "subtitle": "Le bas-relief de Daniel Buren",
+                "image": "map3",
+                "audio": "galerie_veuve_pommery"
+            },
+            "sections": [
+                {
+                    "title": "Le bas-relief de Daniel Buren",
+                    "contentText": "Le célèbre artiste français D. Buren, à qui l’on doit notamment les colonnes du Palais Royal à Paris, a réalisé un bas-relief intitulé Ecrire la craie, dans le cadre de l'exposition Expérience Pommery #4, l’emprise du lieu en 2007 et dont il a été le commissaire."
+                }
+            ]
+        },
+        "poi_notre_dame": {
+            "thumbnail": "pts04",
+            "header": {
+                "title": "4. Crayère Notre Dame",
+                "subtitle": "D’immenses et sublimes crayères",
+                "image": "map4",
+                "audio": "crayere_notre_dame"
+            },
+            "sections": [
+                {
+                    "title": "D’immenses et sublimes crayères",
+                    "contentText": "L’idée de génie de Madame Pommery est donc de relier ces immenses puits entre eux par des galeries et de se servir du remblai existant pour niveler toute sa future cave à moins 30 mètres de profondeur, qui offre les conditions idéales avec une température constante à 10 degrés et l’humidité à 98% toute l’année. C’est cet équilibre parfait qui est à l’origine de la finesse de la bulle du champagne Pommery.",
+                    "images": ["content4_img1"]
+                },
+                {
+                    "title": "Statue de la Vierge à l’Enfant",
+                    "contentText": "La statue de la Vierge à l’Enfant date du XIVème siècle. Elle a été trouvée, en France, par un Américain, peu de temps après la guerre de 1914-1918 et sera emportée aux Etats-Unis. Quelques années plus tard, il demande à une amie américaine, la Marquise de Polignac, l’épouse du petit-fils de Madame Pommery, de la ramener en France et de retrouver son lieu d’origine. \n\nAprès maintes recherches historiques, il ressort que cette statue devait appartenir à une église de l’est de la France qui fut détruite pendant la guerre.\n\nC’est alors qu’on émit l’idée que si cette Vierge ne retrouvait pas son église, c’est que peut-être, elle voulait rester là où le destin l’avait conduite.\n\nEn 1938, une procession réunissant tout le personnel de la Maison conduit la statue de la Vierge portée à bras jusqu’à sa nouvelle demeure. Dix ans plus tard, Monseigneur Marmotin, Archevêque de Reims, viendra la bénir sous le nom de <orange>« Notre-Dame des Crayères »</orange>.\n\nDepuis ce jour, elle veille sur notre monde souterrain.",
+                    "images": ["content4_img2"]
+                }
+            ]
+        },
+        "poi_liverpool": {
+            "thumbnail": "pts05",
+            "header": {
+                "title": "5. Galerie Liverpool",
+                "subtitle": "L’acheminement des bouteilles",
+                "image": "map5",
+                "audio": "galerie_liverpool"
+            },
+            "sections": [
+                {
+                    "title": "L’acheminement des bouteilles",
+                    "contentText": "En levant la tête, vous pouvez apercevoir la crémaillère qui permettait aux bouteilles, au début de l’industrialisation, de parcourir l’ensemble des 18 kilomètres de caves et ainsi aller d’un atelier à un autre. Elle a été utilisée jusqu’en 1970.\n\nLes bouteilles étaient rangées dans des paniers (6 bouteilles ou 4 magnums), descendaient en cave le long du grand escalier et par un jeu d’aiguillage, arrivaient à l’endroit du rangement. Les cavistes décrochaient les paniers, rangeaient les bouteilles et raccrochaient les paniers vides. \n\nDésormais, elles sont transportées à l’aide de chariots électriques. Le travail de la cave a évolué mais le mode d’élaboration traditionnel a été sauvegardé chez Pommery. Aujourd’hui toujours près de 60 personnes travaillent quotidiennement dans les caves du Domaine et le bruit de leur travail s’entend lors de votre visite."
+                }
+            ]
+        },
+        "poi_elaboration": {
+            "thumbnail": "pts06",
+            "header": {
+                "title": "6. L’élaboration du champagne Pommery",
+                "subtitle": "Les étapes de fabrication du champagne Pommery",
+                "image": "map6",
+                "audio": "elaboration_du_champagne_pommery"
+            },
+            "sections": [
+                {
+                    "contentText": "Le style Pommery que nous définissons comme vif, élégant et délicat se retrouve dans tous les vins de notre gamme «Royal». Ce goût constant est la preuve du travail de la maison qui le différencie des autres champagnes."
+                },
+
+                {
+                    "tagCloud": {
+                        "title": "Les étapes de fabrication du champagne Pommery",
+                        "tags": ["les vendanges","le pressurage","la fermentation","la clarification","l’assemblage","le tirage et la prise de mousse","le vieillissement","le remuage","le dégorgement"]
+                    }
+                },
+                {
+                    "index": 1,
+                    "contentText": "La première étape est la plus importante. \n<orange>Les vendanges</orange> se déroulent généralement cent jours après la pleine floraison qui a lieu en juin. Les raisins cueillis à la main sont ensuite dirigés vers les centres de pressurage. ",
+                    "images": ["content6_img1"]
+                },
+                {
+                    "index": 2,
+                    "contentText": "<orange>Le pressurage</orange> consiste à faire éclater les baies de raisin pour en extraire le jus appelé moût. Le pressurage est immédiat, progressif et doux. Il s’effectue à faible pression, notamment pour les raisins noirs, dont la peau ne doit pas colorer les moûts. Ces moûts sont alors transportés jusqu’à Reims dans la cuverie du Chef de cave. ",
+                    "footerText": "Clément Pierlot , le dixième chef de cave de la maison Pommery, est le dépositaire et le garant du style Pommery, créé par Madame Pommery."
+                    
+                },
+                {
+                    "index": 3,
+                    "contentText": "Après le pressurage et à l’issue d’un contrôle analytique et organoleptique systématique, les moûts reposent 15 à 24 heures dans des cuves. Les moûts clarifiés sont ensemencés de levures pour déclencher la fermentation alcoolique. ",
+                    "images": ["content6_img2"]
+                },
+                {
+                    "index": 4,
+                    "contentText": "<orange>La clarification</orange> se fait par centrifugation. Le vin est ainsi débarrassé des levures ou autres particules. Ce procédé physique, efficace et rapide, ne nécessite pas d'ajout de produits dans le vin. L’étape suivante est l’assemblage. "
+                },
+                {
+                    "index": 5,
+                    "contentText": "<orange>L’assemblage</orange> est le mariage harmonieux pour les brut sans année (comme notre Brut Royal) entre les vins de la vendange de l'année et nos vins de réserve. La Maison possède l'équivalent d'une année de récolte (réparties en plusieurs millésimes) en vins de réserve afin de maintenir chaque année l'authenticité du style, quelle que soit la vendange. En février, alors que les vins sont reposés, le Chef de Cave réunit son équipe d'Oenologues pour déguster les vins de l'année. Chaque vin sera affecté à la cuvée de l'année, à la réserve ou encore écarté s'il ne convient pas aux critères de la Maison. C'est en travaillant par touches successives en mariant certains vins entre eux qu'après de multiples essais, que l'Assemblage de l'année est validé. "
+                },
+                {
+                    "index": 6,
+                    "contentText": "Les vins assemblés sont mis en bouteilles, on nomme cette étape <orange>le tirage</orange>, et descendus en cave, où sous l’action du sucre et des levures aura lieu la seconde fermentation. Ainsi les sucres se transforment en alcool et en gaz carbonique. Les bouteilles étant fermées, le gaz carbonique (CO2) reste prisonnier et crée l’effervescence : nous l'appelons <orange>la prise de mousse</orange>.\n\nAyant consommé tout le sucre pour produire l’effervescence, les levures se meurent sur le flanc de la bouteille. C’est cette lie de levures qui, au contact du vin, lui confère son bouquet et sa richesse aromatique.",
+                    "footerText": "Au dessus de vous se trouve une bouteille de démonstration. Son dépôt est amené à disparaitre.",
+                    "images": ["content6_img3"]
+                },
+                {
+                    "index": 7,
+                    "contentText": "<orange>Des années de vieillissement</orange> sont nécessaires pour obtenir un développement complet des arômes. Dans la profondeur des caves, toutes les conditions sont réunies pour que nos cuvées, jour après jour, atteignent leur maturité. Préservant l’humidité en été et restituant la chaleur en hiver, la craie est un parfait régulateur thermique : avec une température constante de 10°C, la prise de mousse et la bonification du vin sont idéales.",
+                    "images": ["content6_img4"]
+                },
+                {
+                    "contentText": "La Champagne impose un vieillissement d’au moins 15 mois. Chez Pommery, il est de 3 ans pour notre Pommery Brut Royal, un minimum de 7 ans pour nos millésimés, et 12 ans pour notre cuvée de prestige, «Cuvée Louise»."
+                },
+                {
+                    "index": 8,
+                    "contentText": "Vous pouvez également découvrir nos bouteilles installées sur des pupitres de <orange>remuage</orange>. Cette étape consiste à faire glisser le dépôt, se trouvant sur le flanc de la bouteille, vers le col de celle-ci. Avec les avancées techniques importantes des dernières années, le remuage se fait mécaniquement par des gyropalettes qui garantissent l’extrême qualité de l’étape. Pour chaque bouteille la durée de remuage est de 5 jours.",
+                    "images": ["content6_img5"]
+                },
+                {
+                    "index": 9,
+                    "contentText": "Le champagne est alors prêt pour <orange>le dégorgement</orange> : le col de la bouteille est plongé dans une solution réfrigérante à -25° C. En ouvrant la bouteille, la pression de gaz carbonique expulse le bouchon de glace qui emprisonne le dépôt de levures, rendant ainsi au vin toute sa limpidité et sa brillance. On ajoute alors une liqueur d’expédition qui permettra d’élaborer le niveau de goût souhaité (extra brut, brut, sec, doux…). La bouteille reçoit aussitôt son bouchon définitif en liège et est coiffée d’un muselet. L’habillage des bouteilles est réalisé après quelques mois de repos en cave.",
+                    "images": ["content6_img6", "content6_img7"]
+                }
+            ]
+        },
+        "poi_manchester": {
+            "thumbnail": "pts07",
+            "header": {
+                "title": "7. Galerie Manchester",
+                "subtitle": "La galerie des grands flacons",
+                "image": "map7",
+                "audio": "galerie_manchester"
+            },
+            "sections": [
+                {
+                    "title": "La galerie des grands flacons",
+                    "contentText": "Une des spécificités de la maison Pommery est de ne pas transvaser le vin mais de l’élaborer directement dans son flacon d’origine et de le laisser vieillir en cave, quelle que soit sa taille. Toutes les tailles de flacons produisent une très belle qualité de vin à condition de laisser le temps au vin dans son flacon d’origine.",
+                    "images": ["content7_img1"]
+                },
+                {
+                    "title": "Pourquoi Manchester ?",
+                    "contentText": "Madame Pommery a institué une tradition, celle de donner à ces galeries le nom de toutes les grandes villes du monde au fur et à mesure de leurs conquêtes par Pommery. Saint Pétersbourg, Copenhague, Stockholm, Berlin, Gênes, Milan, Venise, Budapest…inondent les 18km de caves.",
+                    "images": ["content7_img3", "content7_img2", "content7_img4"]
+                }
+            ]
+        },
+        "poi_crayeres": {
+            "thumbnail": "pts08",
+            "header": {
+                "title": "8. L'histoire des crayères",
+                "subtitle": "",
+                "image": "map8",
+                "audio": "histoire_des_crayeres"
+            },
+            "sections": [
+                {
+                    "title": "",
+                    "quote": {
+                        "text": "“ Il existe, au sud de Reims, au-delà des remparts au lieu-dit \"Les Crayères\", un immense terrain vague de 75 hectares que la ville utilise comme décharge municipale car réputée impropre à la construction. ”",
+                        "author": ""
+                    }
+                    
+                },
+                {
+                    "contentText": "Madame Pommery a acquis ses premiers lots en 1866. Le terrain est parsemé de puits profonds creusés pour en extraire les moellons de craie utilisés pour construire les premières maisons de Reims et les remparts.\n\nUne exploration méthodique du sous-sol a démontré qu'il était parfaitement possible d'en faire d'excellentes caves.\n\nEn effet, la craie champenoise, qui représente la grande majorité de notre terroir, est constituée de fragments de squelettes de micro-organismes marins.\n\nLa particularité de cette roche est sa grande capacité à retenir l’eau et permet à la vigne de n’être jamais ni en déficit ni en excès d’eau, et aux caves de bénéficier d’une hygrométrie  (98%) et d’une température (10°c) constantes. \n\nL'aménagement des crayères commence en juillet 1868. Les travaux allaient durer 10 ans.\n\nDes équipes de mineurs français et belges s'y succédèrent d'abord pour niveler les crayères et les remblayer à 30 mètres de profondeur puis pour creuser dans la craie les dix-huit kilomètres de galeries.\n\nAujourd'hui, dans les caves du Domaine Pommery, reposent 25 milllions de bouteilles de champagne Pommery.\n\nL'inauguration de la première visite de caves au monde a eu lieu en avril 1879.",
+                    "footerText": "Œuvre de Bjorn Dahlem\nExpérience Pommery# 8, Nos meilleurs souvenirs\nBlack hole, 2005 ",
+                    "images": ["content8_img1"]
+                }
+
+            ]
+        },
+        "poi_stockholm_olso": {
+            "thumbnail": "pts09",
+            "header": {
+                "title": "9. Stockholm/Oslo",
+                "subtitle": "Les différentes tailles de bouteilles Pommery",
+                "image": "map9",
+                "audio": "stockholm_oslo"
+            },
+            "sections": [
+                {
+                    "title": "Les différentes tailles de bouteilles Pommery"
+                },
+                {
+                    "index": "le quart",
+                    "contentText": "25 cl."
+                    
+                },
+                {
+                    "index": "la demie",
+                    "contentText": "37,5 cl."
+                    
+                },
+                {
+                    "index": "la bouteille",
+                    "contentText": "75 cl."
+                    
+                },
+                {
+                    "index": "le Magnum",
+                    "contentText": "1,5 litre soit l’équivalence de 2 bouteilles."
+                    
+                },
+                {
+                    "index": "le Jéroboam",
+                    "contentText": "3 litres soit l’équivalence de 4 bouteilles."
+                    
+                },
+                {
+                    "index": "le Mathusalem",
+                    "contentText": "6 litres soit l’équivalence de 8 bouteilles."
+                    
+                },
+                {
+                    "index": "le Salmanazar",
+                    "contentText": "9 litres soit l’équivalence de 12 bouteilles. Cet exceptionnel flacon pesant 18 kg vous permettra de servir un verre de Champagne à près de 80 personnes !"
+                    
+                },
+                {
+                    "index": "le Nabuchodonosor",
+                    "contentText": "15 litres soit l'équivalence de 20 bouteilles."
+                    
+                },
+                {
+         
+                    "contentText": "À la fin du XIXe siècle, les négociants champenois ont imaginé les noms de ces grands contenants. Le champagne étant le vin de fête par excellence, ils ont associés les noms aux civilisations moyen-orientales de l’Antiquité, réputées pour leur faste"
+                    
+                }
+            ]
+        },
+        "poi_silene": {
+            "thumbnail": "pts10",
+            "header": {
+                "title": "10. Silène",
+                "subtitle": "Œuvre de Gustave Navlet",
+                "image": "map10",
+                "audio": "silene"
+            },
+            "sections": [
+                {
+                    "title": "Œuvre de Gustave Navlet",
+                    "contentText": "Le bas-relief Silène et sa cour de ménades en folie, est une joyeuse scène où le père spirituel de Bacchus et d’autres satyres boivent, dansent, jouent de la musique et séduisent les Ménades.",
+                    "images": ["content10_img1", "content10_img2"],
+                    "footerText": "Oeuvre de Nicholas KEOGH & Paddy BLOOMER \nExpérience Pommery #5, l'Art en Europe \nUnderground House, 2008 "
+                }
+            ]
+        },
+        "poi_champagne": {
+            "thumbnail": "pts11",
+            "header": {
+                "title": "11. Le Champagne au 18ème siècle",
+                "subtitle": "Œuvre de Gustave Navlet",
+                "image": "map11",
+                "audio": "le_champagne_au_18eme_siecle"
+            },
+            "sections": [
+                {
+                    "title": "Œuvre de Gustave Navlet",
+                    "contentText": "« Le champagne au 18ème siècle » représente une fin de souper sous la Régence. Vous remarquerez que la forme des verres utilisés ressemble à des flûtes, mais que leur pied est creux.\n\nLe dégorgement n’existant pas à l’époque, on laissait reposer le vin quelques instants dans les verres pour que le dépôt tombe au fond avant de le déguster. On ne buvait jamais le calice jusqu’à la lie. Les verres servaient donc de décanteur. A la fin du repas, nos personnages dégustent des fruits accompagnés de vins sucrés, puisque telle était l’habitude.\n\nIl faudra attendre 1874 pour que naisse le Pommery Brut Nature 1874, le premier champagne Brut millésimé de l’histoire de la Champagne inventé par Madame Pommery.",
+                    "images": ["content11_img1"]
+                },
+                {
+                    "contentText": "À l’époque où le champagne est très fortement sucré et se déguste essentiellement sur le dessert, Madame Pommery sent que les modes changent. Elle demande à Damas Olivier, le premier chef de cave de la maison, de créer un champagne frais et léger qui puisse se déguster à tout moment. Le champagne Brut est créé et le succès ne se démentira pas car, aujourd’hui, il représente près de 95% des expéditions de la Champagne."
+                }
+            ]
+        },
+        "poi_fete_bacchus": {
+            "thumbnail": "pts12",
+            "header": {
+                "title": "12. Fête de Bacchus",
+                "subtitle": "Œuvre de Gustave Navlet",
+                "image": "map12",
+                "audio": "fete_de_bacchus"
+            },
+            "sections": [
+                {
+                    "title": "Œuvre de Gustave Navlet",
+                    "contentText": "Le bas-relief intitulé Fête de Bacchus a été réalisé par Gustave Navlet en 1882. Bacchus était célébré et remercié de sa générosité par l’ensemble des vignerons."
+                }
+            ]
+        },
+        "poi_louise": {
+            "thumbnail": "pts13",
+            "header": {
+                "title": "13. Crayère Louise",
+                "subtitle": "La naissance d’une cuvée",
+                "image": "map13",
+                "audio": "crayere_louise"
+            },
+            "sections": [
+                {
+                    "title": "La naissance d’une cuvée",
+                    "contentText": "Louise, la cuvée prestige de Pommery, s’inspire de l’esprit de Madame Pommery, de celle qui fut un génie d’innovation, d’avant-gardisme et d’audace.\n\nLe 8 octobre 1979, la vendange bat son plein dans les vignes dont les raisins ont atteint une qualité exceptionnelle et inespérée. C’est l’année que choisit l’œnologue de la Maison Pommery pour se lancer dans l’élaboration d’une cuvée de prestige millésimée.\n\nEn 1986, la Maison Pommery fête ses 150 ans et en hommage à sa fondatrice, un bas-relief Louise Pommery de 20 m² est réalisé par l’artiste champenois Jean Barat d’après un dessin d’E Schleifer."
+                }
+            ]
+        },
+        "poi_oenotheque": {
+            "thumbnail": "pts14",
+            "header": {
+                "title": "14. L’œnothèque",
+                "subtitle": "Des millésimes extrêmement rares",
+                "image": "map14",
+                "audio": "oenotheque"
+            },
+            "sections": [
+                {
+                    "title": "Des millésimes extrêmement rares",
+                    "contentText": "Enfin, découvrez l’œnothèque des champagne Pommery qui renferme tous les grands millésimes de la maison depuis sa création et notamment le célèbre 1874.\n\nLes deux alcôves que vous pouvez découvrir ne représentent qu'une infime partie d'une des plus grandes Œnothèques de Champagne et que les bouteilles qui se trouvent en ces deux endroits sont toutes dégorgées d'époque et n'ont jamais quitté la cave.",
+                    "images": ["content14_img1"]
+                }
+            ]
+        }
+    },
+
+    "en": {
+        "poi_escalier": {
+            "thumbnail": "pts01",
+            "header": {
+                "title": "1. The grand staircase",
+                "subtitle": "The entrance to the cellars",
+                "image": "map1",
+                "audio": "le_grand_escalier"
+            },
+            "sections": [
+            {
+                "title": "The entrance to the cellars",
+                "contentText": "This grand staircase, composed of 116 steps, leads to the cellars, 30 meters below.\n\nIn the 19th century, there was no electricity in the cellars. The ladies wore crinolines and the gentlemen wore beautiful top hats. Descending into the cellars was an adventure and the art found there allowed to delight the visitors’ eyes."
+            },
+            {
+                "title": "The installation by Pablo Valbuena",
+                "contentText": "You can admire this amazing lighting project created by the Spanish artist Pablo Valbuena. This installation has been specifically designed to highlight the architectural qualities and the gigantesque dimensions of the grand staircase. On your way down to the champagne cellars, you will be advancing to the rhythm of how the light is moving, a light that brings life to this underground space, redefining the perception of space-time by means of a game of full and empty.",
+                "footerText": "Installation created for the exhibition Expérience Pommery #13, gigantesque! in 2016."
+            }]
+        },
+        "poi_maradeurs": {
+            "thumbnail": "pts02",
+            "header": {
+                "title": "2. The Marauders",
+                "subtitle": "A work by Gustave Navlet",
+                "image": "map2",
+                "audio": "les_maraudeurs"
+            },
+            "sections": [
+            {
+                "title": "A work by Gustave Navlet",
+                "contentText": "From 1882 to 1885, always loyal to this wish to ennoble her product through the arts, Madame Pommery commissioned the Champagne-born sculptor Gustave Navlet to realise, in the Domaine’s cellars, a series of large bas-reliefs celebrating wine. Sculpted directly to the chalk itself, these immense scenes reach, sometimes, nine meters in length and six meters in height.",
+                "footerText": "\"Les Mauraudeurs\" is the first bas relief, made in 1882. It shows, in the spirit of the Renaissance putti, some angels playing with the grapes of the vineyeard."
+            }]
+        },
+        "poi_veuve_pommery": {
+            "thumbnail": "pts03",
+            "header": {
+                "title": "3. Veuve Pommery gallery",
+                "subtitle": "The bas-relief by Daniel Buren",
+                "image": "map3",
+                "audio": "galerie_veuve_pommery"
+            },
+            "sections": [
+                {
+                    "title": "The bas-relief by Daniel Buren",
+                    "contentText": "The wellknown french artist Daniel Buren, whose famous columns (Les Deux Plateaux) adorn the Palais Royal in Paris, was the curator of the exhibition Expérience Pommery #4, L’emprise du Lieu in 2007 and he made a bas-relief entitled Ecrire la craie."
+                }
+            ]
+        },
+        "poi_notre_dame": {
+            "thumbnail": "pts04",
+            "header": {
+                "title": "4.  Notre Dame chalk pit",
+                "subtitle": "The immense and amazing chalk pits",
+                "image": "map4",
+                "audio": "crayere_notre_dame"
+            },
+            "sections": [
+                {
+                    "title": "The immense and amazing chalk pits",
+                    "contentText": "You discover here the first chalcpit of the tour. The chalcpits functionned as a quarry since the roman period in order to extract the limestone used to construct houses and churches in the city of Reims. Some of them measured 60 m deep originally, what means the double of the situation actually.\n\nMadame Pommery’s genius idea was to interconnect the immense pits by galleries and to use the existing backfill to level her entire future cellar at 30 metres, at least, under the ground. This provided the ideal conditions with a constant temperature of 10° C and a humidity of 98% throughout the year. It is this perfect balance that is at the origin of the Pommery champagnes’ bubble finesse.",
+                    "images": ["content4_img1"]
+                },
+                {
+                    "title": "Statue of the Virgin Mary and Child",
+                    "contentText": "The statue of the Virgin Mary and Child dates back to the 14th century. It was discovered, in France, by an American, soon after the war of 1914-1918, and it was shipped to the United States. A few years later, he asked an American friend of his, the Marquise de Polignac, the wife of Madame Pommery’s grandson, to bring the statue back to France and find its place of origin. \n\nAfter meticulous historical research, it was found out that this statue must have belonged to a church located in the east part of France that was destroyed during the war.\n\nThat is when the idea was born: if this Virgin Mary would not find her church, then maybe she would rather stay there where destiny had brought her.\n\nIn 1938, a procession reuniting all the staff & personnel of the Maison Pommery carried the statue of the Virgin Mary to its new “house”. Ten years later, Monseigneur Marmotin, Archbishop of Reims, came to bless the statue under the name of “Notre-Dame des Crayères”.\n\nSince that day, she watches over our underground world.",
+                    "images": ["content4_img2"]
+                }
+            ]
+        },
+        "poi_liverpool": {
+            "thumbnail": "pts05",
+            "header": {
+                "title": "5. Liverpool gallery",
+                "subtitle": "The transport of the bottles ",
+                "image": "map5",
+                "audio": "galerie_liverpool"
+            },
+            "sections": [
+                {
+                    "title": "The transport of the bottles ",
+                    "contentText": "When you lift your head up, you will notice the rack and pinion system used, at the beginning of the industrial era, to move the bottles around, covering the entire 18 kilometres of the cellars, thus dispatching them from one production area to the other. This system was in use up until 1970.\n\nThe bottles were placed in wicker baskets (6 bottles or 4 magnums), which went down to the cellars along the grand staircase. By means of a points and switches system, the baskets arrived to their dedicated storage areas. The cellar workers unhooked the baskets, stored the bottles and hooked the empty baskets back up. \n\nToday, the bottles are conveyed with the use of electric trolleys and carts. The work in the cellars has evolved, but the traditional methods of winemaking have been preserved and safeguarded at the Domaine Pommery. Currently, almost 60 people work every day in the Pommery cellars and the sounds of their working can be heard during our visit."
+                }
+            ]
+        },
+        "poi_elaboration": {
+            "thumbnail": "pts06",
+            "header": {
+                "title": "6. The making of the Pommery champagne",
+                "subtitle": "The stages in the making of the Pommery champagne ",
+                "image": "map6",
+                "audio": "elaboration_du_champagne_pommery"
+            },
+            "sections": [
+                {
+                    "contentText": "The Pommery style, which we define by characteristics such as vivacity, freshness and finesse, is found in all the wines of our “Royal” brand. It is this constant taste that is proof of the work carried out at the Maison Pommery and which distinguishes it from other champagnes."
+                },
+
+                {
+                    "tagCloud": {
+                        "title": "The stages in the making of the Pommery champagne",
+                        "tags": ["the harvest","the pressing","the fermentation","the clarification","the assemblage/ blending","the bottling","the foaming & secondary alcoholic fermentation (prise de mousse)","the ageing","the riddling","the disgorging"]
+                    }
+                },
+                {
+                    "index": 1,
+                    "contentText": "The first stage is the most important one. <orange>The harvest</orange> takes place, in general, one hundred days after the flowering of the vines, which occurs in June. The grapes are harvested exclusively by hand and are transported to the pressing centres. ",
+                    "images": ["content6_img1"]
+                },
+                {
+                    "index": 2,
+                    "contentText": "<orange>The pressing</orange> consists in applying pressure to the grapes in order to extract the juice that is called grape must. The pressing is immediate, progressive and gentle. It is carried out at low pressure, notably for the black grapes since the skin should not colour the musts. These musts are, transported to Reims, in the vat room of the Cellar Director. ",
+                    "footerText": "Clément Pierlot, the tenth Cellar Director of the Maison Pommery, is the depositary and the guarantor of the Pommery style, created by Madame Pommery."
+                    
+                },
+                {
+                    "index": 3,
+                    "contentText": "After the pressing and following a systematic analytical and organoleptic control, the musts rest for 15 to 24 hours in vats. The yeasts are added to the clarified musts in order to trigger the alcoholic fermentation. \n\n<orange>The alcoholic fermentation</orange> lasts for about 1 to 2 weeks: the sugars are transformed into alcohol and into carbon dioxide, which evaporates, leaving behind “still”, non-sparkling wines.",
+                    "images": ["content6_img2"]
+                },
+                {
+                    "index": 4,
+                    "contentText": "<orange>The clarification</orange> is achieved through centrifugation. The wine is, thus, free from yeasts or other particles. This physical, efficient and rapid process does not require adding any products in the wine. The next stage is the blending."
+                },
+                {
+                    "index": 5,
+                    "contentText": "The <orange>blending</orange> is the harmonious combination of wines from the current harvest and our reserve wines for our brut non vintage (like Pommery Brut Royal). The Maison Pommery holds the equivalent of a year’s harvest in reserve wines, in order to preserve the authenticity of the style, independently of the harvest. In February, while the wines are rested, the Cellar Master and his team of oenologists taste the wines of the year. Each wine will be assigned to the vintage of the year, to the reserve or excluded if it does not meet the quality criteria of the House. It is by working in successive keys by marrying certain wines between them that after multiple tests, that the Assembly of the year is validated. "
+             
+                },
+                {
+                    "index": 6,
+                    "contentText": "The blended wines are then bottled and thereafter stored in the cellars. Under the action of the sugar and the yeasts, the second alcoholic fermentation takes place. The sugars turning into alcohol, while releasing carbon dioxide (CO2) that, when trapped inside the bottle, dissolves into the wine, resulting in a foam once the bottle is opened: that is the prise de mousse stage.\n\nHaving consumed all the sugar to produce the foaming, the yeasts end up as sediment inside the bottle. It is this yeast lee that, in contact with the wine, gives its bouquet and aroma richness.",
+                    "footerText": "When you look up, there is a demo bottle. The deposit, that has to be removed, is still visible.",
+                    "images": ["content6_img3"]
+                },
+                {
+                    "index": 7,
+                    "contentText": "<orange>Years of ageing</orange> are necessary to get the full development of the aromas.\n\n In the depths of the cellars, all the conditions are met for our cuvees to reach, day after day, their maturity. Conserving the humidity levels in the summer and rendering heat in the winter, chalk is the perfect thermal regulator, with a constant temperature of 10°C, the foaming and the ageing improvement of the wine are ideal. Champagne requires an ageing of, at least, 15 months. At Pommery, it takes 3 years for our Pommery Brut Royal, a minimum of 7 years for our Millésimé vintages, and 12 years for our prestige cuvee, the “Cuvée Louise”. ",
+                    "images": ["content6_img4"]
+                },
+                {
+                    "contentText": "Champagne requires an ageing of, at least, 15 months. At Pommery, it takes 3 years for our Pommery Brut Royal, a minimum of 7 years for our Millésimé vintages, and 12 years for our prestige cuvee, the «Cuvée Louise»."
+                },
+                {
+                    "index": 8,
+                    "contentText": "You can also see our bottles installed on the <orange>riddling racks</orange>. Riddling is done to bring the sediment, formed at the bottom of the bottle, towards its neck. With the technical advances of the past years, riddling is mechanised, using equipment called gyropalettes, which ensures flawless precision and regularity. For every bottle, the riddling process lasts 5 days. ",
+                    "images": ["content6_img5"]
+                },
+                {
+                    "index": 9,
+                    "contentText": "The champagne is, then, ready for the <orange>disgorging stage</orange>: the bottle’s neck is plunged into a refrigerated tank of brine at -25° C. When opening the bottle, the carbon dioxide pressure drives the ice plug, where the deposit of yeast is trapped out, making the wine its clarity and brilliance. Then the dosing liquor (liqueur d’expédition) is added. This liquor will allow elaborating the wished level of taste and flavour (extra brut, brut, sec, doux…). The bottle gets its definitive cork stopper and wire cage (muselet). The capsuling and labelling of the bottles take place after a few months of rest in the cellars.",
+                    "images": ["content6_img6", "content6_img7"]
+                }
+            ]
+        },
+        "poi_manchester": {
+            "thumbnail": "pts07",
+            "header": {
+                "title": "7. Manchester gallery",
+                "subtitle": "The gallery of the high-capacity bottles ",
+                "image": "map7",
+                "audio": "galerie_manchester"
+            },
+            "sections": [
+                {
+                    "title": "The gallery of the high-capacity bottles ",
+                    "contentText": "One of the specificities of the Maison Pommery is that the wine is not poured into different bottles but undergoes the stages of champagne-making directly in its original bottle, independently of the bottle’s capacity. All the bottles’ sizes produce high-quality wines on condition that time is given for the wine to mature inside its original bottle.",
+                    "images": ["content7_img1"]
+                },
+                {
+                    "title": "Why Manchester?",
+                    "contentText": "Madame Pommery started the tradition of naming the cellar galleries after major world cities once her champagne reached and conquered their markets. Saint Petersburg, Copenhagen, Stockholm, Berlin, Genoa, Milan, Venice, Budapest… they “flood” the 18km of the cellars.",
+                    "images": ["content7_img3", "content7_img2", "content7_img4"]
+                }
+            ]
+        },
+        "poi_crayeres": {
+            "thumbnail": "pts08",
+            "header": {
+                "title": "8. The history of the chalk pits",
+                "subtitle": "",
+                "image": "map8",
+                "audio": "histoire_des_crayeres"
+            },
+            "sections": [
+                {
+                    "title": "",
+                    "quote": {
+                        "text": "“ There lies, to the south of Reims, beyond the citywalls  at the place called \"Les Crayères\" [the Chalk Pits], an immense wasteland of 75 hectares that the city uses as municipal landfill since it is considered unsuitable for construction. ”",
+                        "author": ""
+                    }
+                },
+                {
+                    "contentText": "Madame Pommery bought the first plots in 1866. In this land, there are scattered deep wells, pits, dug to extract the chalk (limestone) rubble used for building the first houses in Reims and the walls. \n\nA methodical exploration of the subsoil showed that it was quite possible to use these pits as cellars. \n\nIn fact, in the Champagne region, chalk, which represents the majority of our soil, is formed from fragments of marine microorganisms’ skeletons. \n\nThe particularity of this bedrock is its high capacity to retain water, thus allowing the vine to never be lacking or in excess of water. This way the cellars benefit from constant hygrometry (98%) and temperature (10 °C). \n\nThe works in the chalk pits started in July 1868 and they went on for 10 years. \n\nFrench and Belgian miners worked first to level the chalk pits and to backfill them at 30 meters below the surface of the ground, and, then, to dig the eighteen kilometres of galleries. \n\nToday, in the cellars of the Domaine Pommery, there lie 25 millions of champagne Pommery bottles. \n\nThe inaugural, first-ever visit of wine cellars in the world took place in April 1879.",
+                    "footerText": "Bjorn Dahlem masterpiece\nExpérience Pommery# 8, Nos meilleurs souvenirs\nBlack hole, 2005 ",
+                    "images": ["content8_img1"]
+                }
+            ]
+        },
+        "poi_stockholm_olso": {
+            "thumbnail": "pts09",
+            "header": {
+                "title": "9. Stockholm/Oslo",
+                "subtitle": "The different sizes of the Pommery bottles",
+                "image": "map9",
+                "audio": "stockholm_oslo"
+            },
+            "sections": [
+                {
+                    "title": "The different sizes of the Pommery bottles"
+                },
+                {
+                    "index": "the quarter bottle",
+                    "contentText": "20 centiliters"
+                    
+                },
+                {
+                    "index": "the half bottle",
+                    "contentText": "37,5 centiliters"
+                    
+                },
+                {
+                    "index": "the bottle",
+                    "contentText": "75 centiliters"
+                    
+                },
+                {
+                    "index": "The Magnum",
+                    "contentText": "1,5 liters, that is the equivalent of 2 bottles"
+                    
+                },
+                {
+                    "index": "The Jeroboam",
+                    "contentText": "3 liters, that is the equivalent of 4 bottles"
+                    
+                },
+                {
+                    "index": "The Mathusalem",
+                    "contentText": "6 liters, that is the equivalent of 8 bottles"
+                    
+                },
+                {
+                    "index": "The Salmanazar",
+                    "contentText": "9 liters, that is the equivalent of 12 bottles. This exceptional “container” weighs 18 kg and will allow you to serve a glass of champagne to about 80 people!"
+                    
+                },
+                {
+                    "index": "The Nabuchodonosor",
+                    "contentText": "15 liters, that is the equivalent of 12 bottles"
+                    
+                },
+                {
+         
+                    "contentText": "At the end of the 19th century, the Champagne merchants have imagined the names for these large containers. Champagne being the prime wine for celebrations, they associated the names to ancient Middle Eastern civilisations renowned for their splendour."
+                    
+                }
+            ]
+        },
+        "poi_silene": {
+            "thumbnail": "pts10",
+            "header": {
+                "title": "10. Silène",
+                "subtitle": "A work by Gustave Navlet",
+                "image": "map10",
+                "audio": "silene"
+            },
+            "sections": [
+                {
+                    "title": "A work by Gustave Navlet",
+                    "contentText": "The bas-relief Silène and her court of frenzied Maenads is a joyful scene where the spiritual father of Bacchus and other satyrs are drinking, dancing, playing music and seducing the Maenads.",
+                    "images": ["content10_img1", "content10_img2"],
+                    "footerText": "Oeuvre de Nicholas KEOGH & Paddy BLOOMER \nExpérience Pommery #5, l'Art en Europe \nUnderground House, 2008 "
+                }
+            ]
+        },
+        "poi_champagne": {
+            "thumbnail": "pts11",
+            "header": {
+                "title": "11. The Champagne in the 18th century",
+                "subtitle": "A work by Gustave Navlet",
+                "image": "map11",
+                "audio": "le_champagne_au_18eme_siecle"
+            },
+            "sections": [
+                {
+                    "title": "A work by Gustave Navlet",
+                    "contentText": "« Le Champagne au 18ème siècle » represents the end of a supper under the Regency. You may observe that the glasses used look like flutes, but their stems are hollow.\n\nThe disgorging process did not exist back then, so before tasting the wine, it was left to rest for a few minutes after having been poured into the wine glasses. This way, before drinking the wine, the sediment fell to the bottom of the glass. One did not drink from the chalice down to the lee; the glasses were used as decanters. At the end of the meal, people ate fruits accompanied by sweet wines, since that was customary in that time.\n\nThe world had to wait until 1874 for the Pommery Brut Nature 1874, the first Brut champagne vintage in the history of the Champagne region; another of Madame Pommery’s inventions.",
+                    "images": ["content11_img1"]
+                },
+                {
+                    "contentText": "In an era when the champagne had a very sweet flavour and was tasted, essentially, with or as a dessert, Madame Pommery felt the change in fashion. She asked Damas Olivier, the first Cellar Master of the Maison Pommery, to create a fresh and light champagne that could be tasted at any time. The champagne Brut was created and its unfailing success cannot be denied since it represents, today, approximately 95% of the shipments from the Champagne region."                }
+            ]
+        },
+        "poi_fete_bacchus": {
+            "thumbnail": "pts12",
+            "header": {
+                "title": "12. Fête de Bacchus",
+                "subtitle": "A work by Gustave Navlet",
+                "image": "map12",
+                "audio": "fete_de_bacchus"
+            },
+            "sections": [
+                {
+                    "title": "A work by Gustave Navlet",
+                    "contentText": "The bas-relief Fête de Bacchus was realised by Gustave Navlet in 1882. Bacchus was celebrated and thanked for his generosity by all the winemakers."
+                }
+            ]
+        },
+        "poi_louise": {
+            "thumbnail": "pts13",
+            "header": {
+                "title": "13. Louise chalk pit",
+                "subtitle": "The birth of a cuvée",
+                "image": "map13",
+                "audio": "crayere_louise"
+            },
+            "sections": [
+                {
+                    "title": "The birth of a cuvée",
+                    "contentText": "Louise, Pommery’s prestige cuvee, was inspired by the spirit of Madame Pommery, a genius of innovation, avant-gardism and audacity.\n\nOn October 8th, 1979, the harvest was in full swing in the vineyards where the grapes had reached an exceptional and undreamed-of quality. It is this year that the Maison Pommery’s oenologist chose to launch the making of a prestige vintage cuvee.\n\nIn 1986, the Maison Pommery celebrated its 150 anniversary. Paying tribute to its founder, it commissioned the Champagne-born artist Jean Barat to carry out a 20-m² bas-relief of Louise Pommery from a drawing by E. Schleifer."
+                }
+            ]
+        },
+        "poi_oenotheque": {
+            "thumbnail": "pts14",
+            "header": {
+                "title": "14. The œnotheque",
+                "subtitle": "Extremely rare vintages",
+                "image": "map14",
+                "audio": "oenotheque"
+            },
+            "sections": [
+                {
+                    "title": "Extremely rare vintages",
+                    "contentText": "Finally, discover the Pommery champagnes’ œnotheque that showcases all the great vintages of the Maison Pommery since its creation and, notably, the famous 1874.\n\nThe two alcoves you can discover are only a small part of one of the largest Champagne wine oenotheques. the bottles are all out of date and have never left the cellar.",
+                    "images": ["content14_img1"]
+                }
+            ]
+        }
+    },
+    "nl": {
+        "poi_escalier": {
+            "thumbnail": "pts01",
+            "header": {
+                "title": "1. De grote trap",
+                "subtitle": "De ingang van de kelders",
+                "image": "map1",
+                "audio": "le_grand_escalier"
+            },
+            "sections": [
+            {
+                "title": "De ingang van de kelders",
+                "contentText": "De grote trap van 116 treden leiden naar de 30m diepe kelders.\n\nIn de 19° eeuw is er geen electriciteit. De dames droegen in die tijd hoepelrokken en de heren mooie hoge hoeden. Kelders bezoeken is een echt avontuur en de kunst van de bas-reliefs een lust voor de ogen van de bezoekers."
+            },
+            {
+                "title": "De installatie van Pablo Valbuena",
+                "contentText": "U kunt een heel mooie lichtinstallatie bewonderen van de Spaanse kunstenaar Pablo Valbuena. Deze installatie is speciaal ontworpen om de architecturale kwaliteiten en de gigantische afmetingen van de grote trap volop in waarde te stellen. Wanneer u naar beneden loopt, op het rythme van de lichtbewegingen, een spel van licht en donker komt er leven in de nieuwe ruimte – tijd definitie.",
+                "footerText": "Creatie voor Expérience Pommery #13, gigantesque ! in 2016."
+            }]
+        },
+        "poi_maradeurs": {
+            "thumbnail": "pts02",
+            "header": {
+                "title": "2. Het bas-relief « De Stropers »",
+                "subtitle": "Werk van Gustave Navlet",
+                "image": "map2",
+                "audio": "les_maraudeurs"
+            },
+            "sections": [
+            {
+                "title": "Werk van Gustave Navlet",
+                "contentText": "Trouw aan het idee om produkten te verrijken door kunst, heeft Madame Pommery de opdracht gegeven aan de Reimse kunstenaar Gustave Navlet voor 4 bas-reliefs, waarvan de thema’s eerbetonen aan de wijn. Tussen 1882 en 1885 werden deze ter plaatse uitgehouwen : het grootste tafereel werd 15 meter lang en 6 meter hoog. Het kleinste tafereel vindt u hierboven.",
+                "footerText": "\"Les Mauraudeurs\" (De Stropers) is het eerste bas-relief, gecreëerd in 1882 die engeltjes met druiven in een wijngaard voorstelt in een renaissance putti-stijl."
+            }]
+        },
+        "poi_veuve_pommery": {
+            "thumbnail": "pts03",
+            "header": {
+                "title": "3. De Galerij Veuve Pommery",
+                "subtitle": "Het bas-relief van Daniel Buren",
+                "image": "map3",
+                "audio": "galerie_veuve_pommery"
+            },
+            "sections": [
+                {
+                    "title": "Het bas-relief van Daniel Buren",
+                    "contentText": "Het bas-relief van de galerij Veuve Pommery is een kunstwerk van Daniel Buren, auteur van de beroemde zwart-witte zuilen in Parijs, bij het Palais Royal. Het krijgt de titel van « Ecrire la craie » in het kader van de tentoonstelling Experience Pommery #4, l’Emprise du lieu in 2007, waarvan hij curator was."
+                }
+            ]
+        },
+        "poi_notre_dame": {
+            "thumbnail": "pts04",
+            "header": {
+                "title": "4. De krijtgroeve Notre Dame",
+                "subtitle": "O.L.Vrouw-beeld met het Kind",
+                "image": "map4",
+                "audio": "crayere_notre_dame"
+            },
+            "sections": [
+                {
+                    "title": "De enorme en sublieme krijtgroeves",
+                    "contentText": "Madame Pommery had het geniale idee om de galerijen te verbinden met de enorme krijtgroeves en de bestaande aanaarding te gebruiken voor de nieuwe 30m diepe kelders. Die situatie geeft de ideale condities voor een constante temperatuur van 10°C en 98% vochtigheid. Dit perfect evenwicht ontwikkelt de verfijnde bubbels van de champagne Pommery.",
+                    "images": ["content4_img1"]
+                },
+                {
+                    "title": "Het beeld van O.L.Vrouw met het Kind",
+                    "contentText": "Het beeld van O.L.Vrouw met het Kind dateert uit de 14°eeuw. Een Amerikaan had dit beeld in de omgeving van Reims gevonden juist na de 1° WO en bracht die mee naar de Verenigde Staten. Enkele jaren later vroeg hij aan zijn Amerikaanse vriendin, intussen de Markieze de Polignac geworden, echtgenote van de kleinzoon van Madame Pommery, die terug naar Frankrijk te brengen, en op zijn oorspronkelijke plaats terug te brengen. \n\nNa verschillende historische opzoekingen, kwam men tot de vaststelling dat het beeld hoogstwaarschijnlijk behoorde tot een kerk die vernietigd was in de 1° WO.\n\nAangezien het O.L.Vrouw beeld niet terug in haar kerk kon, wilde dat misschien zeggen dat ze daar moest terecht komen waar het lot wilde ; bijgevolge in de Pommery kelders.\n\nIn 1938 werd het beeld in personeelsprocessie naar haar nieuwe plek gebracht. Tien jaar later kwam de aartsbisschop van Reims, Monseigneur Marmottin, haar inhuldigen als « Notre Dame des Crayères » (de O.L.Vrouw van de Krijtgroeve).\n\nSindsdien waakt ze op de hele onderwereld van Pommery.",
+                    "images": ["content4_img2"]
+                }
+            ]
+        },
+        "poi_liverpool": {
+            "thumbnail": "pts05",
+            "header": {
+                "title": "5. De Liverpool - Galerij",
+                "subtitle": "Het vervoeren van de flessen ",
+                "image": "map5",
+                "audio": "galerie_liverpool"
+            },
+            "sections": [
+                {
+                    "title": "Het vervoer van de flessen ",
+                    "contentText": "Als u naar boven kijkt, kunt u tandheugels zien, die vandaag niet meer werken. Maar in het begin van de industrialisatie werden ze gebruikt om de flessen door de 18 km lange kelders te brengen. Dit werd gebruikt tot in 1970.\n\nDe flessen werden boven in de mandjes gebracht per 4 magnums of 6 flessen, en dan langs de grote trap, dankzij een spel van wisselstangen op de juiste stokeerplaats gebracht. Het kelderpersoneel zorgde ervoor om de manden af te haken, de flessen te rangschikken en de lege manden weer aan te haken, die naar boven werden gebracht door hetzelfde systeem. \n\nVandaag worden de flessen aan de hand van elektrische trolleys door de kelders vervoerd. Maar zelfs als het werk in de kelders gemoderniseerd is, werden de traditionele vervaardigingsmethodes bij Pommery bewaard. 70 personen werken elke dag in de Pommery kelders en hun activiteiten kunt u horen tijdens uw bezoek."
+                }
+            ]
+        },
+        "poi_elaboration": {
+            "thumbnail": "pts06",
+            "header": {
+                "title": "6. Samenstelling van de champagne Pommery",
+                "subtitle": "De samenstellings-etapes ",
+                "image": "map6",
+                "audio": "elaboration_du_champagne_pommery"
+            },
+            "sections": [
+                {
+                    "contentText": "De Pommery-stijl, levendig, elegant en delicaat vindt u terug in het volledige gamma « Brut Royal ». De constante kwaliteitssmaak is de getuige van de zorgvuldig uitgevoerde werken bij Pommery en die de champagne zo verschillend maakt."
+                },
+
+                {
+                    "tagCloud": {
+                        "title": "De productiefases van de champagne Pommery",
+                        "tags": ["de wijnoogst","het druivepersen","de gisting","de klaring","de samenstelling","de « tirage »","de « prise de mousse »","het rijpingsproces","de « remuage »","het « dégorgement »"]
+                    }
+                },
+                {
+                    "index": 1,
+                    "contentText": "De eerste fase, <orange>de wijnoogst</orange>, is de belangrijkste. De wijnoogst begint gebruikelijk 100 dagen na de volle bloei in juni. De druiven worden met de hand geplukt (machinaal oogsten is verboden in de Champagnestreek) en verder naar de perscentra gestuurd. ",
+                    "images": ["content6_img1"]
+                },
+                {
+                    "index": 2,
+                    "contentText": "De druiven worden geperst om het sap, most genoemd, te verkrijgen. Het <orange>persen</orange> gebeurt in één keer, geleidelijk en behoedzaam. Er wordt een lichte druk uitgeoefend, vooral bij donkergekleurde druiven, om te voorkomen dat de most door de schil verkleurt. Het sap wordt vervolgens naar de kuipen van de keldermeester in Reims gebracht. Hij zorgt voor het overdragen van de Pommery stijl die door Madame Pommery is uitgedacht. ",
+                    "footerText": "Clément Pierlot, de 10° keldermeester van het champagne huis Pommery, staat garant voor de Pommery stijl."
+                    
+                },
+                {
+                    "index": 3,
+                    "contentText": "Na het persen blijft de most 15 tot 24 uur in de kuipen rusten. Na een systematische analytische en organoleptische controle worden er gisten aan de geklaarde most toegevoegd om de alcoholische <orange>gisting</orange> op gang te brengen.",
+                    "images": ["content6_img2"]
+                },
+                {
+                    "index": 4,
+                    "contentText": "De <orange>klaring</orange> gebeurt door centrifugeren. De wijn wordt op deze wijze van gist en van onzuiverheden ontdaan. Dit fysieke procédé is snel en efficiënt en zonder het toevoegen van produkten. De volgende fase is de samenstelling (assemblage)."
+                },
+                {
+                    "index": 5,
+                    "contentText": "De <orange>samenstelling</orange> is de harmonieuze verbinding voor champagne zonder jaarverwijzing (zoals onze Brut Royal) van de stille wijnen van eenzelfde jaar en de reservewijn. De reservewijn stemt overeen met een volledig oogstjaar en laat het toe om elk jaar dezelfde kwaliteitsstijl te behouden, om het even of het gaat om een goed of een slecht jaar. In december komt een team van oenologen en professionelen samen om de oogstwijnen te proeven. Elke wijn wordt toegewezen aan een champagne of aan de reservewijn, ofwel afgewezen omdat hij niet aan de gevraagde kwaliteit beantwoordt. Door te werken in verschillende etapes, en door verschillende wijnen bij elkaar te brengen kan een samenstelling uiteindelijk goedgekeurd worden, na meerdere proeven. "
+             
+                },
+                {
+                    "index": 6,
+                    "contentText": "De samengestelde wijnen worden in flessen gebracht, wat men wijntrekken, <orange>« le tirage »</orange>, noemt en worden daarna in de kelder gebracht, waar de actie van suiker en gist tot de 2° gisting leiden. De suikers zetten zich om in alcohol en koolzuurgas (CO²). De flessen worden gesloten, waardoor het koolzuurgas blijft vastzitten en het bruisen veroorzaakt : dat noemt men <orange>« la prise de mousse »</orange>.\n\nDe gist sterft uit naarmate de suiker verdwijnt. Dit fenomeen veroorzaakt een gistbezinksel, die in contact met de wijn het bouquet en de aroma’s weergeeft.",
+                    "footerText": "De demonstratiefles hierboven toont u het dépôt (het bezinksel), die verwijderd moet worden.",
+                    "images": ["content6_img3"]
+                },
+                {
+                    "index": 7,
+                    "contentText": "Verschillende <orange>jaren rijping</orange> zijn nodig om de volledige ontwikkeling van de aroma’s te verkrijgen. In de diepte van de kelders zijn alle voorwaarden samengebracht om onze cuvé’s, dag na dag, tot rijpheid te brengen. De krijtkelders, die perfecte warmteregelaars zijn, behouden vochtigheid in de zomer en geven de warmte weer in de winter : met een constante temperatuur van 10°C kan de « prise de mousse » en de rijping van de wijnen in ideale omstandigheden plaatsvinden.",
+                    "images": ["content6_img4"]
+                },
+                {
+                    "contentText": "Champagne moet minimaal 15 maanden blijven liggen. Bij Pommery wordt het tot 3 jaar gebracht voor de Brut Royal, minimum 7 jaar voor een Millésimé en 12 jaar voor de prestigecuvé « Louise »."
+                },
+                {
+                    "index": 8,
+                    "contentText": "De staande, houten rekken, die we « pupitres de <orange>remuage</orange> » noemen, worden gebruikt om de flessen te keren. Deze fase bestaat erin om het gistbezinksel te laten glijden van de zijkant naar de hals van de fles. Belangrijke technische ontwikkelingen in de afgelopen jaren hebben ervoor gezorgd dat het draaien van de flessen nu machinaal gebeurt door middel van gyropallets, waardoor deze fase op een optimale manier plaatsvindt. De « remuage » van elke fles vergt enkel 5 dagen. ",
+                    "images": ["content6_img5"]
+                },
+                {
+                    "index": 9,
+                    "contentText": "De champagne is dan klaar voor het « <orange>dégorgement</orange> » : de hals van de fles wordt in een ijskoud bad gedompeld van -25°C en daarna geopend. De bevroren prop met het bezinksel wordt door de druk vanzelf uitgestoten. Daarna wordt de doseringslikeur toegebracht, die het smaakpalet bepaalt (extra brut, brut, sec, doux ..). Vervolgens krijgt de fles een definitieve kurk en muselet. Na enkele maanden rust in de kelders worden de flessen « aangekleed » en verkocht.",
+                    "images": ["content6_img6", "content6_img7"]
+                }
+            ]
+        },
+        "poi_manchester": {
+            "thumbnail": "pts07",
+            "header": {
+                "title": "7. De Manchester - Galerij",
+                "subtitle": "De grote flessen galerij ",
+                "image": "map7",
+                "audio": "galerie_manchester"
+            },
+            "sections": [
+                {
+                    "title": "De galerij van de grote flessen ",
+                    "contentText": "Eén van de specialiteiten van Pommery is het vervaardigen van de champagne in de oorspronkelijke flessen en die in de kelders te laten rijpen, ongeacht de grootte van de fles, in plaats van de wijn over te brengen in grotere flessen. Alle groottes krijgen een uitzonderlijke kwaliteit, op voorwaarde die lang genoeg te laten rijpen in de oorspronkelijke fles.",
+                    "images": ["content7_img1"]
+                },
+                {
+                    "title": "Waarom Manchester ?",
+                    "contentText": "Madame Pommery heeft een traditie ingevoerd om de 18km galerijen te benoemen naar de grote wereldsteden waarvan ze gelijdelijk aan de markten veroverde : Sint-Petersburg, Kopenhagen, Stockholm, Berlijn, Genua, Milaan, Venetië, Budapest ... en ook Manchester.",
+                    "images": ["content7_img3", "content7_img2", "content7_img4"]
+                }
+            ]
+        },
+        "poi_crayeres": {
+            "thumbnail": "pts08",
+            "header": {
+                "title": "8. De geschiedenis van de krijtgroeves",
+                "subtitle": "Een gigantische bouwplaats",
+                "image": "map8",
+                "audio": "histoire_des_crayeres"
+            },
+            "sections": [
+                {
+                    "title": "",
+                    "quote": {
+                        "text": "“ Er bestaat ten zuiden van Reims, buiten de stadsmuren, een plaats \"Les Crayères\" genoemd, met een enorm terrein van 75 ha die de stad gebruikt als gemeentelijke stortplaats, aangezien het terrein niet bebouwbaar is. ”",
+                        "author": ""
+                    }
+                },
+                {
+                    "contentText": "Madame Pommery heeft haar eerste percelen in 1866 gekocht. Het terrein bestond uit verschillende diepe krijtgroeves, waarvan de stenen werden gebruikt voor de eerste huizen en stadsommuring van Reims. \n\nEen methodisch onderzoek van de ondergrond heeft aangetoond dat het perfect mogelijk was om er uitstekende kelders van te maken. \n\nDe krijtgrond die zo typisch is voor onze streek bestaat uit skeletfragmenten van zeemicro-organismes. \n\nDe bijzonderheid van de krijtgrond is de functie van waterreserve en laat de wijngaard toe nooit aan watersnood of overtollig water te leiden. De kelders hebben een constante vochtigheidsgraad (98%) en temperatuur (10°C). \n\nHet uitgraven van de krijtputten begint in juli 1868. De werken duren ongeveer 10 jaar. \n\nDe Franse en Belgische mijnenwerkers volgen zich op om de krijtputten op gelijke diepte van 30m te brengen en de 18km galerijen uit te graven. \n\nVandaag rusten 25 miljoen flessen champagne in de Pommery-kelders. \n\nHet eerste kelderbezoek vond plaats in april 1879.",
+                    "footerText": "Bjorn Dahlem masterpiece\nExpérience Pommery# 8, Nos meilleurs souvenirs\nBlack hole, 2005 ",
+                    "images": ["content8_img1"]
+                }
+            ]
+        },
+        "poi_stockholm_olso": {
+            "thumbnail": "pts09",
+            "header": {
+                "title": "9. Stockholm/Oslo",
+                "subtitle": "De grote flessen",
+                "image": "map9",
+                "audio": "stockholm_oslo"
+            },
+            "sections": [
+                {
+                    "title": "De inhoud van de verschillende Pommery flessen"
+                },
+                {
+                    "index": "le quart",
+                    "contentText": "25 cl"
+                    
+                },
+                {
+                    "index": "la demie",
+                    "contentText": "37,5 cl"
+                    
+                },
+                {
+                    "index": "de fles",
+                    "contentText": "75 cl"
+                    
+                },
+                {
+                    "index": "de Magnum",
+                    "contentText": "1,5 liter of 2 flessen"
+                    
+                },
+                {
+                    "index": "de Jeroboam",
+                    "contentText": "3 liters of 4 flessen"
+                    
+                },
+                {
+                    "index": "de Mathusalem",
+                    "contentText": "6 liters of 8 flessen"
+                    
+                },
+                {
+                    "index": "de Salmanazar",
+                    "contentText": "9 liters of 12 flessen.Deze uitzonderlijke fles weegt 18kg, waarbij u aan 80 personen een glas champagne kan schenken !"
+                    
+                },
+                {
+                    "index": "Le Nabuchodonosor",
+                    "contentText": "15 liter of 20 flessen"
+                    
+                },
+                {
+         
+                    "contentText": "Op het einde van de 19° eeuw hebben de champagne-wijnhandelaars namen gegeven aan de grote flessen. Omdat champagne de feestwijn bij uitstek is, gebruikten ze de namen van de koningen uit de Oudheid in het Midden-Oosten, gekend voor hoor hun pracht en praal."
+                    
+                }
+            ]
+        },
+        "poi_silene": {
+            "thumbnail": "pts10",
+            "header": {
+                "title": "10. Het bas-relief Silenius",
+                "subtitle": "Werk van Gustave Navlet",
+                "image": "map10",
+                "audio": "silene"
+            },
+            "sections": [
+                {
+                    "title": "Werk van Gustave Navlet",
+                    "contentText": "Het bas-relief van Silenius en zijn hof van bacchanten is een vrolijk tafereel met de geestelijke vader van Bacchus en andere saters die drinken, dansen, muziek spelen en bacchanten verleiden.",
+                    "images": ["content10_img1", "content10_img2"],
+                    "footerText": "Werk van Nicholas KEOGH & Paddy BLOOMER \nExperience Pommery #5, l’Art en Europe \nUnderground House, 2008 "
+                }
+            ]
+        },
+        "poi_champagne": {
+            "thumbnail": "pts11",
+            "header": {
+                "title": "11. Het bas-relief De Champagne in de 18ème siècle",
+                "subtitle": "Werk van Gustave Navlet",
+                "image": "map11",
+                "audio": "le_champagne_au_18eme_siecle"
+            },
+            "sections": [
+                {
+                    "title": "Het werk van Gustave Navlet",
+                    "contentText": "Het tafereel « Le Champagne au 18ème siècle » stelt een feestmaaltijd voor onder het regentschap van Philippe d’Orléans. Als u goed kijkt, ziet u dat de vorm van de glazen op fluitglazen lijken, maar met een holle voet.\n\nIn die tijd werd het bezinksel niet uit de fles verwijderd, maar met de wijn in het glas geschonken. Na het uitschenken liet men het glas een ogenblik rusten zodat het diksel in de bodem van het glas kon zinken. De glazen werden nooit volledig geleegd. In die tijd was champagne heel zoet en werd alleen bij dessert gedronken, zoals het bas-relief aantoont. Maar de mode verandert en Madame Pommery had het zien aankomen.",
+                    "images": ["content11_img1"]
+                },
+                {
+                    "contentText": "Vanaf 1874 heeft ze daar verandering gebracht, bij het creëeren van een Brut Nature 1874, de eerste Brut millésimé van de champagne geschiedenis. Zij vroeg aan Damas Olivier, de 1° keldermeester van het huis om een frisse en lichte champagne te maken, die op elk moment van de dag kan gedronken worden. De Brut is zo ontstaan en bracht een waar succes met zich mee, want vandaag de dag vertegenwoordigt deze meer dan 95% van de champagneconsumptie."
+                }
+            ]
+        },
+        "poi_fete_bacchus": {
+            "thumbnail": "pts12",
+            "header": {
+                "title": "12. Het bas-relief Feest van Bacchus",
+                "subtitle": "Werk Gustave Navlet",
+                "image": "map12",
+                "audio": "fete_de_bacchus"
+            },
+            "sections": [
+                {
+                    "title": "Werk van Gustave Navlet",
+                    "contentText": "Het feest van Bacchus is het laatste bas-relief die Gustave Navlet heeft uitgehouwen in 1885. Bacchus wordt hier door alle wijnbouwers vereerd en bedankt voor zijn vrijgevigheid."
+                }
+            ]
+        },
+        "poi_louise": {
+            "thumbnail": "pts13",
+            "header": {
+                "title": "13. De krijtgroeve Louise",
+                "subtitle": "De geboorte van een vintage",
+                "image": "map13",
+                "audio": "crayere_louise"
+            },
+            "sections": [
+                {
+                    "title": "De geboorte van de cuvée Louise",
+                    "contentText": "Wanneer op 8 october 1979 de wijnpluk hard bezig is en men vaststelt dat de druiven van ongehoopte uitzonderlijke kwaliteit is, heeft de oenoloog van het champagnehuis Pommery besloten om een gemillésimeerde prestigecuvée Louise te vervaardigen.\n\nDe prestigecuvé Louise, inspireert zich bij Madame Pommery, die een génie was in vernieuwing, avant-garde en vrijmoedigheid.\n\nAls ere aan Madame Pommery werd een bas-relief van 20m² ontworpen door de Reimse kunstenaar Jean Barat, naar een tekening van E. Schleifer. Dit gebeurde in het kader van de feestelijkheden in 1986 wanneer Pommery haar 150 jaar bestaan vierde."
+                }
+            ]
+        },
+        "poi_oenotheque": {
+            "thumbnail": "pts14",
+            "header": {
+                "title": "14. De oenotheek",
+                "subtitle": "De heel zeldzame millésimes",
+                "image": "map14",
+                "audio": "oenotheque"
+            },
+            "sections": [
+                {
+                    "title": "De heel zeldzame millésimes",
+                    "contentText": "Neem aan het einde van uw bezoek nog een kijkje in de oenotheek van de Pommery waar grote millésimes te vinden zijn, waaronder de bijzondere 1874, de eerste champagne brut.\n\nIn onze twee historische « privé» kelders ligt een klein gedeelte van de grote Champagne oenotheek. Die flessen hebben de kelders nog nooit verlaten, zelfs na hun « dégorgement ».",
+                    "images": ["content14_img1"]
+                }
+            ]
+        }
+    }
+}

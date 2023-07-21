@@ -1,0 +1,469 @@
+{
+    "fr": {
+        "poi1": { 
+            "thumbnail": "intro1",
+            "header":{
+                "title": "Notre histoire",
+                "image": "content1",
+                "audio": "notre_histoire"
+            },
+            "sections": [
+                {
+                    "title": "La maison Pommery, portée par une femme d’exception",
+                    "contentText": "Alexandre-Louis Pommery est l'homme d'affaires éclairé de la maison de champagne Pommery, fondée en 1836. A sa disparition, sa femme Jeanne-Alexandrine Pommery reprend les rênes de l’entreprise.\nEn 1858, la jeune veuve part à la conquête des marchés nationaux et internationaux et bouscule, sans état d’âme, quelques règles de la gestion d’entreprise. Elle pose, en précurseur, les bases d’un produit de luxe : le style, la marque, la communication et les relations publiques.\nElle invente l’image de marque Pommery. Un engagement personnel avec une prise de risque hors du commun. Cette vision audacieuse des affaires s’appuie, de plus, sur une éthique sans compromis et qui est aujourd’hui toujours la nôtre.",
+                    "images": ["content_img1"]
+                }
+            ]
+        },
+        "poi2": { 
+            "thumbnail": "intro2",
+            "header":{
+                "title": "Le Domaine Pommery",
+                "image": "content2",
+                "audio": "le_domaine_pommery"
+            },
+            "sections": [
+                {
+                    "quote": {
+                        "text": "“ J’ai voulu ce Domaine comme un livre ouvert, ouvert sur le monde, sur le temps. Laissez-y votre marque comme moi-même j’y ai imprimé à jamais mon empreinte. Qu’elle soit digne du respect pour ce vin de Champagne devenu, désormais, notre âme commune et qui porte en lui, pour demain et toujours, la mémoire de notre art. ”",
+                        "author": "Madame Pommery"
+                    }
+                },
+                {
+                    "title": "Un lieu d’exception",
+                    "contentText": "A partir de 1863, devant le développement croissant des ventes et la politique de stock menée par Madame Pommery afin d’assurer la régularité qualitative de ses cuvées, le manque de place commence à se faire sentir dans les caves de son habitation de la rue Vauthier-Le-Noir, au cœur de Reims. Madame Pommery sait bien qu’il lui faut un établissement plus rationnel, réunissant en un seul lieu toutes ses activités de vinification, si elle veut assurer définitivement le succès de sa marque qui s’affirme chaque jour davantage.\n\nLa colline Saint-Nicaise, alors en limite de Reims et avec vue sur la cathédrale, offre de nombreux avantages : terrains disponibles, possibilités d’expansion, passage de la route impériale et existence de crayères gallo-romaines.",
+                    "images": ["content_img2"]
+                },
+                {
+                    "contentText": "En juillet 1868, Madame Pommery lance, ce qui fut à Reims, le plus grand chantier du siècle : la métamorphose des crayères en caves. Le chantier, énorme, durera plus de 10 ans pour construire tous les bâtiments extérieurs, planter les 25 hectares de vignes et creuser les 18 kilomètres de galeries pour relier entre elles les 60 crayères. Le Domaine Pommery représente au total 55 hectares soit, pour vous donner une idée, la même superficie que la place de la Concorde et le Jardin des Tuileries à Paris réunis."
+                }
+            ]
+        },
+        "poi3": { 
+            "thumbnail": "intro3",
+            "header":{
+                "title": "L'architecture",
+                "image": "content3",
+                "audio": "architecture"
+            },
+            "sections": [
+                {
+                    "title": "Un patrimoine exceptionnel ",
+                    "contentText": "Bâtiments et jardins paysagers fascinent autant les visiteurs que les historiens de l’art et de l’architecture : leur répartition dans l’espace obéit à deux contraintes : contrainte de rationalité pour le bon fonctionnement d’une entreprise et la volonté délibérée de fonder une esthétique du paysage urbain. La société anglaise donne « le ton » au monde. Alors Madame Pommery demande à deux architectes rémois, Alphonse Gosset et Charles Gozier, de s’inspirer du style aimé des anglais.",
+                    "images": ["content_img3_1"]
+                },
+                {
+                    "contentText": "C’est ainsi que le néo-gothique élisabéthain s’impose au Domaine Pommery : en tourelles, créneaux et donjons, associant des chaînages de briques rouges à un revêtement gris bleuté. Instinct du marketing, mais plus encore. Madame Pommery a l’accueil généreux : elle veut que les anglais, grands consommateurs de Pommery et fréquents visiteurs de son établissement, s’y sentent chez eux. ",
+                    "images": ["content_img3_2"]
+                },
+                {
+                    "contentText": "Néanmoins l’esprit d’avant-garde domine. Construit sur un plan ouvert, l’ensemble des édifices va à l’encontre des traditions architecturales des maisons de Champagne, repliées sur elles-mêmes selon le principe des hôtels particuliers du XVIIIème siècle. L’intérêt est de favoriser les expansions futures des bâtiments. \n\n Il révèle aussi une philosophie de la vie : faire tomber les barrières, inviter, s’ouvrir au monde… Depuis juillet 2015, le Domaine est inscrit au patrimoine mondial de l’Unesco.",
+                    "images": ["content_img3_3", "content_img3_4"]
+                }
+            ]
+        },
+        "poi4": { 
+            "thumbnail": "intro4",
+            "header":{
+                "title": "La Villa Demoiselle",
+                "image": "content4",
+                "audio": "la_villa_demoiselle"
+            },
+            "sections": [
+                {
+                    "title": "Un symbole architectural de la ville de Reims",
+                    "contentText": "Vous avez pu apercevoir en entrant dans le Domaine à droite la magnifique Villa Demoiselle. Joyau de l’architecture du début du XXème siècle, la Villa Demoiselle renaît en 2008 avec une splendeur nouvelle grâce à la passion de ses propriétaires, Paul-François et Nathalie Vranken. Cette demeure voit le jour grâce à l’initiative d’Henry Vasnier, le directeur du champagne Pommery qui souhaite un écrin pour sa collection d’œuvres d’art et en confie la réalisation à l’architecte Louis Sorel en 1906.\n\nLa Villa Demoiselle constitue, des caves aux toitures, le témoin capital d’une période où l’Art nouveau se mue en Art déco. Si l'extérieur affiche des formes aux angles nets, la décoration intérieure resplendit de sinuosités Art nouveau.\n\nElle est le témoignage unique d’une collaboration entre architectes, ébénistes et décorateurs unis par une même inspiration et au savoir-faire exceptionnel. La Villa est aujourd'hui le siège social des champagnes Vranken."
+                }
+            ]
+        },
+        "poi5": { 
+            "thumbnail": "intro5",
+            "header":{
+                "title": "Les Clos Pompadour",
+                "image": "content5",
+                "audio": "le_clos_pompadour"
+            },
+            "sections": [
+                {
+                    "title": "Leur rareté en fait leur valeur",
+                    "contentText": "Derrière les imposants bâtiments du domaine se trouvent les Clos Pompadour. On nomme « Clos » une parcelle de vigne complètement entourée de murs ou de haies vives d'une certaine hauteur pour qu'un cheval ne puisse pas la passer. Il n’en existe que quelques rares dans le vignoble champenois. Pommery a le privilège d’en posséder quatre sur 25 hectares et sur le terroir même de Reims !",
+                    "images": ["content_img5"]
+                }
+            ]
+        },
+        "poi6": { 
+            "thumbnail": "intro6",
+            "header":{
+                "title": "Le Cellier Carnot",
+                "image": "content6",
+                "audio": "le_cellier_carnot"
+            },
+            "sections": [
+                {
+                    "title": "Le hall d’accueil",
+                    "contentText": "Vous vous trouvez actuellement dans le Cellier Carnot. Ce bâtiment, à l’origine industriel, est aujourd’hui entièrement dédié à l’accueil des visiteurs. Cet immense cellier de 1500 m² renfermait plus de 300 fûts soigneusement rangés sur trois niveaux.\n\nMadame Pommery a eu le rêve de le faire partager avant tout le monde en inventant la visite de caves dès sa construction en 1878. Le nom de ce cellier fait suite à la visite historique du Président de la République Sadi Carnot qui honora les caves Pommery de sa présence le 18 septembre 1891.",
+                    "images": ["content_img6_1", "content_img6_2"]
+                }
+            ]
+        },
+        "poi7": { 
+            "thumbnail": "intro7",
+            "header":{
+                "title": "Le foudre\nd’Émile Gallé",
+                "image": "content7",
+                "audio": "le_foudre_emile_galle"
+            },
+            "sections": [
+                {
+                    "title": "Un hommage à l’amitié franco-américaine",
+                    "contentText": "En 1903, la maison Pommery a besoin d’un foudre d’assemblage, de taille importante, pour mélanger les différents crus.\n\nOn commande à la tonnellerie habituelle Frühinsholz, alors à Nancy, un foudre de 75 000 litres, soit l'équivalent de 100 000 bouteilles. En même temps s’organise, aux Etats-Unis, une exposition Universelle à Saint-Louis dans le Missouri dont l’ouverture est prévue pour le 30 avril 1904. Ce marché, où Pommery occupe une place considérable, est d’une importance capitale pour la maison.\n\nL’idée surgit alors de frapper un grand coup publicitaire en envoyant ce foudre gigantesque représenter Pommery à l’exposition. Henry Vasnier prend contact avec le sculpteur Émile Gallé pour réaliser la façade du foudre.\n\nTerminé juste à temps, ce foudre est expédié aux Etats-Unis en pièces détachées. Remonté et exposé, il retraversera l’Atlantique quelques mois plus tard pour être remonté, cette fois-ci définitivement, à sa place.",
+                    "images": ["content_img7_1", "content_img7_2"]
+                },
+                {
+                    "contentText": "En bas à droite de la composition une jeune femme, s’élevant d’une terre de vignes chargées de raisins, représente la France. Elle tend une coupe de champagne à la jeune Amérique chevauchant la vieille Amérique représentée par un sphinx à tête d’indien. Surplombant la scène, une troisième figure féminine, le génie du commerce, trône sur une chaise curule, symbole de pouvoir. A droite, est représenté le navire qui emportera le grand foudre dans ce voyage extraordinaire. En bas de la composition, on peut apercevoir la cathédrale de Reims et en haut, la statue de la Liberté ancrée dans le port de New York.\n\nEn 2008, dans le cadre de l’exposition L’Art en Europe, Expérience Pommery#5, l’artiste Sophie Nys, a planté 7 arbres dans le parc du Domaine qui représentent les sept essences de bois ayant servi à la réalisation du Grand Foudre.",
+                    "images": ["content_img7_3", "content_img7_4", "content_img7_5"]
+                }
+            ]
+        },
+        "poi8": { 
+            "thumbnail": "intro8",
+            "header":{
+                "title": "The Spirit of\nThe Grape",
+                "image": "content8",
+                "audio": "the_spirit_of_the_grape"
+            },
+            "sections": [
+                {
+                    "title": "Une œuvre de Chris Burden",
+                    "contentText": "L’artiste américain Chris Burden, fit don d’une œuvre majeure The Spirit of the Grape (L’Esprit du Vin) au FRAC Champagne-Ardenne. Ce paysage représente les vignes de Champagne reconstituées à l’identique à l’aide de matériaux pauvres, comme de la terre, du bois et du thym. La restauration a été mécénée par Vranken-Pommery Monopole et a nécessité six restauratrices pendant plusieurs mois."
+                }
+            ]
+        },
+        "poi9": { 
+            "thumbnail": "intro9",
+            "header":{
+                "title": "Würsa",
+                "image": "content9",
+                "audio": "wursa"
+            },
+            "sections": [
+                {
+                    "title": "Un instant de poésie",
+                    "contentText": "Devant cette sculpture hyperréaliste qui joue entre la légèreté et la lourdeur, le spectateur devient le témoin d’une expérience physique et psychologique absolument spectaculaire.\nPar de multiples calculs scientifiques, l'artiste Daniel Firman est arrivé au constat qu’à 18 000 km de la Terre, un éléphant pourrait tenir en équilibre sur sa trompe.\n\nEn effet, une planète de 2 8214578 m de circonférence pourrait, par sa faible gravitation, accueillir un éléphant dans cette position.\n\nWürsa est une œuvre pérenne et fait partie de la collection Vranken-Pommery Monopole."
+                }
+            ]
+        }
+        
+    },
+
+    "en": {
+        "poi1": { 
+            "thumbnail": "intro1",
+            "header":{
+                "title": "Our history",
+                "image": "content1",
+                "audio": "notre_histoire"
+            },
+            "sections": [
+                {
+                    "title": "The Maison Pommery, led by an exceptional woman ",
+                    "contentText": "Alexandre-Louis Pommery, a wellknown businessman was the head of the Champagne Pommery, founded in 1836. When he passed away, Jeanne-Alexandrine Pommery, his widow, took over the reins of the company.\nIn 1858, the young widow started the conquest of the national and international markets, overturning, without any qualms, a certain number of corporate management rules.  As a true trailblazer, she laid the foundations of a luxury product promotion: the style, the brand, the communication and the public relations.\nShe invented the image of the Pommery brand. A personal engagement with extraordinary risk-taking energy. Moreover, this bold vision of business affairs was supported by uncompromising ethics, which is still our policy today.",
+                    "images": ["content_img1"]
+                }
+            ]
+        },
+        "poi2": { 
+            "thumbnail": "intro2",
+            "header":{
+                "title": "The Domaine Pommery",
+                "image": "content2",
+                "audio": "le_domaine_pommery"
+            },
+            "sections": [
+                {
+                    "quote": {
+                        "text": "“ I wanted this Domaine [estate] to read like an open book, telling the story of the changing world around it and that of the passage of time. Leave your mark here as I left my eternal trace. May it be worthy of respect for this champagne that is now our shared soul, one that bears - now and forever -the memory of our art ”",
+                        "author": "Madame Pommery"
+                    }
+                },
+                {
+                    "title": "An extraordinary site",
+                    "contentText": "Since 1863, with the increasing growth of sales and the stocks management strategy adopted by Madame Pommery in order to ensure the qualitative regularity of her vintages (cuvees), it became evident that there was a shortage of space in the cellars of her house on rue Vauthier-Le-Noir, at the heart of Reims. Madame Pommery was aware that, if she wanted to definitely ensure the success of her ever-growing and self-asserting brand, she needed a more rational establishment, joining on a single location all her winemaking activities.\nThe Hill of Saint-Nicaise, then at the outskirts of Reims and overlooking the cathedral, offered numerous advantages: available land, expansion possibilities, the nearby passage of the imperial route, and the presence of the Gallo-roman chalk quarries.",
+                    "images": ["content_img2"]
+                },
+                {
+                    "contentText": "In July 1868, Madame Pommery launched what would be the largest construction project of the century in Reims: the transformation of the chalk quarries into wine cellars. The gigantesk work that needed more than 10 years to be build, including the 25 hectares of vineyards and the diging of 18 kilometres of interconnected galleries linking  the 60 chalk pits to one another. The Pommery estate measures, totally 55 hectares, which, to have an idea, is the equivalent of the Louvre, the Tuileries garden, and the Place de la Concorde, in Paris, combined."
+                }
+            ]
+        },
+        "poi3": { 
+            "thumbnail": "intro3",
+            "header":{
+                "title": "The architecture",
+                "image": "content3",
+                "audio": "architecture"
+            },
+            "sections": [
+                {
+                    "title": "An exceptional heritage",
+                    "contentText": "The buildings and landscaped gardens are just as fascinating to tourists as they are to art and architecture to historians. Their layout is, at the same time, rational, obeying to the dictates of corporate operational efficiency, and aesthetic, in accordance with the deliberate wish to be integrated within the urban landscape. English society set the tone for the entire world. In this sense, Madame Pommery asked two architects from Reims, Alphonse Gosset and Charles Gozier, to get inspired by the style loved by the English people.",
+                    "images": ["content_img3_1"]
+                },
+                {
+                    "contentText": "That is how the Elizabethan neo-Gothic style came over to the Domaine Pommery. With its turrets, crenellations, and donjon towers, and with red brick ties covered with a blue-grey plaster façade. Marketing instinct, and much more. Madame Pommery reserved a generous reception to her clients and visitors: she wanted the English, major consumers of the Pommery champagne and frequent visitors of her estate, to feel welcome, at home.",
+                    "images": ["content_img3_2"]
+                },
+                {
+                    "contentText": "However, the avant-garde spirit was still prominent. Built on an H-shaped open plan, the buildings were arranged contrary to Champagne’s architectural tradition, according to which houses should face inward onto themselves, like 18th-century French mansions. There was however a concrete reason for the open plan: it made future expansion easier.\nIt is also characteristic of a certain philosophy of breaking down barriers, inviting people in, opening up to the outside world, and opening up the world… Since July 2015, the Domaine Pommery is included on the Unesco World Heritage List. ",
+                    "images": ["content_img3_3", "content_img3_4"]
+                }
+            ]
+        },
+        "poi4": { 
+            "thumbnail": "intro4",
+            "header":{
+                "title": "La Villa Demoiselle",
+                "image": "content4",
+                "audio": "la_villa_demoiselle"
+            },
+            "sections": [
+                {
+                    "title": "An architectural symbol of the city of Reims",
+                    "contentText": "Upon entering the Domaine, you must have seen, to your right, the magnificent Villa Demoiselle. A jewel of the architecture at the beginning of the 20th century, the Villa Demoiselle was restored, in 2008, to a new splendour thanks to the passion of its owners, Paul-François and Nathalie Vranken. This mansion saw the light of day thanks to Henry Vasnier’s, director of Pommery champagne, initiative; he wished for a place to harbour and showcase his artworks’ collection. He commissioned its construction to the architect Louis Sorel in 1906.\n\nThe Villa Demoiselle constitutes, from its cellars to the roofs, a major emblem of the period when Art Nouveau mutated to Art Deco. While the exterior displays the net angles and corners of Art Deco, the interior decoration is a shinning example of the Art Nouveau meanderings.\n\nIt is a unique testament of the collaboration between architects, cabinetmakers and decorators, all united by the same inspiration and gifted with an exceptional know-how."
+                }
+            ]
+        },
+        "poi5": { 
+            "thumbnail": "intro5",
+            "header":{
+                "title": "Les Clos Pompadour",
+                "image": "content5",
+                "audio": "le_clos_pompadour"
+            },
+            "sections": [
+                {
+                    "title": "Their rarity makes their worth ",
+                    "contentText": "Behind the imposing buildings of the Domaine, lies the Clos Pompadour. “Clos” means a plot of vineyard that is completely enclosed between walls or hedges of a certain height, so that a horse can not jump it. There are only a few clos remaining in the Champagne region. Pommery has the privilege of owning four of such plots measuring together 25 hectares, and all that in the terroir of Reims!",
+                    "images": ["content_img5"]
+                }
+            ]
+        },
+        "poi6": { 
+            "thumbnail": "intro6",
+            "header":{
+                "title": "The Carnot cellar",
+                "image": "content6",
+                "audio": "le_cellier_carnot"
+            },
+            "sections": [
+                {
+                    "title": "The reception hall",
+                    "contentText": "You are currently in the Carnot cellar storeroom. This building, originally built for industrial use, nowadays is reserved for the reception of the Domaine’s visitors. This immense storeroom, measuring 1500 m², used to hold 300 barrels carefully stored on three levels.\n\nUpon its construction in 1878, Madame Pommery dreamed, before everybody else, of sharing worldwide by inventing the visits to the cellars. The naming of this storeroom followed the historic visit of the President of the French Republic, Sadi Carnot, who honoured the Pommery cellars with his presence on September 18th, 1891.",
+                    "images": ["content_img6_1", "content_img6_2"]
+                }
+            ]
+        },
+        "poi7": { 
+            "thumbnail": "intro7",
+            "header":{
+                "title": "The Émile Gallé tun",
+                "image": "content7",
+                "audio": "le_foudre_emile_galle"
+            },
+            "sections": [
+                {
+                    "title": "An homage to the friendship between France and the United States",
+                    "contentText": "In 1903, Maison Pommery needed a blending vat or tun, of significant size, to blend the different vintages (crus) between them.\n\nThus, Pommery ordered from their usual supplier, the Frühinsholz cooperage, then based in Nancy, a tun with a capacity of 75000 litres, which is the equivalent of 100000 bottles. At the same time, in the United States, the state of Missouri was getting ready to host the St. Louis World Fair. The opening was scheduled for April 30th, 1904. This market, where Pommery held considerable interests, was of major importance for the Maison.\n\nThen, there came the idea to create a huge publicity stunt by shipping this gigantic tun to represent Pommery at the World Fair. Henry Vasnier contacted the sculptor Émile Gallé to decorate the tun’s façade.\n\nFinished just in time, this tun was shipped to the United States in kit (spare parts) form. Assembled and on display at the fair, it crossed again the Atlantic Ocean a few months later and was reassembled, this time definitively, to the place it occupies since then.",
+                    "images": ["content_img7_1", "content_img7_2"]
+                },
+                {
+                    "contentText": "On the lower part, and to the right, of the façade, a young woman rising from a land of vines loaded with grapes represents France. She is offering a glass of champagne to the young America, an exotic creature astride the old America represented by a sphinx with the head of a Native American. Above this scene, a third female figure, the Genie of Commerce & Enterprise, seated in a curule chair, is the symbol of power. To the right, there is represented the liner that transported the magnificent tun for this extraordinary journey. Below, we see the Cathedral of Reims, while on the upper part there is the statue of Liberty overlooking the port of New York.\n\nIn 2008, on the occasion of the exhibition The Art in Europe (L’Art en Europe), Experience Pommery #5, the artist Sophie Nys planted 7 trees in the park of the Domaine Pommery, representing the seven different kinds (varieties) of wood that were used for the making of the Grand Tun.",
+                    "images": ["content_img7_3", "content_img7_4", "content_img7_5"]
+                }
+            ]
+        },
+        "poi8": { 
+            "thumbnail": "intro8",
+            "header":{
+                "title": "The Spirit of\nThe Grape",
+                "image": "content8",
+                "audio": "the_spirit_of_the_grape"
+            },
+            "sections": [
+                {
+                    "title": "An artwork by Chris Burden ",
+                    "contentText": "The American artist Chris Burden donated the major work of art, The Spirit of the Grape (L’Esprit du Vin) to the FRAC Champagne-Ardenne (FRAC = Regional Fund for Contemporary Art). This landscape represents the vineyards of Champagne. They are pieced together identically to the real ones using “poor”, simple raw materials, such as earth, wood and thyme. The restoration was sponsored by Vranken-Pommery Monopole and required the work of six restoration experts during several months."
+                }
+            ]
+        },
+        "poi9": { 
+            "thumbnail": "intro9",
+            "header":{
+                "title": "Würsa",
+                "image": "content9",
+                "audio": "wursa"
+            },
+            "sections": [
+                {
+                    "title": "A poetic moment",
+                    "contentText": "Facing this hyperrealist sculpture, toying between lightness and heaviness, the visitor becomes witness to an absolutely spectacular physical and psychological experience.\nOn the basis of learned scientific calculations, the artist, Daniel Firman, reached the conclusion that, at a distance of 18000 km above the Earth, an elephant (Würsa) could balance on her trunk.\n\nIn fact, on a planet with a circumference of 2 814578 m an elephant could, due to the planet’s low gravity, “stand” in that position.\n\nWürsa is an artwork permanently on display and is part of the Vranken-Pommery Monopole art collection."
+                }
+            ]
+        }
+    },
+    "nl": {
+        "poi1": { 
+            "thumbnail": "intro1",
+            "header":{
+                "title": "De geschiedenis van het huis Pommery",
+                "image": "content1",
+                "audio": "notre_histoire"
+            },
+            "sections": [
+                {
+                    "title": "Het huis Pommery werd beheerd door een uitzonderlijke vrouw",
+                    "contentText": "Alexandre-Louis Pommery was een succesvolle zakenman die aan de basis stond van het Champagnehuis Pommery, opgericht in 1836. Bij zijn overlijden neemt zijn vrouw, Jeanne-Alexandrine Pommery de touwtjes van de onderneming over. De jonge weduwe begint in 1858 en verovert nationale et internationale markten. Weloverwogen drukt ze belangrijke veranderingen door in de bedrijfsvoering. Ze is baanbrekend bij de ontwikkeling van een luxe produkt : de stijl, het merk, de communicatie en public relations. Haar persoonlijke inzet vergde een buitengewoon groot risico. Haar gedurfde zakenvisie is bovendien gebaseerd op een comprisloze ethiek, die vandaag nog altijd geldig is. Het imago van Pommery hebben we haar te danken.",
+                    "images": ["content_img1"]
+                }
+            ]
+        },
+        "poi2": { 
+            "thumbnail": "intro2",
+            "header":{
+                "title": "Het Domein Pommery",
+                "image": "content2",
+                "audio": "le_domaine_pommery"
+            },
+            "sections": [
+                {
+                    "quote": {
+                        "text": "“ Ik heb dit Domein als een open boek gewild, geopend op de wereld en op de tijd. Laat er uw sporen achter, zoals ikzelf voorgoed mijn afdruk heb gezet. Vooral als ze respectvol zijn voor de champagnewijn, die intussen onze gemeenschappelijke ziel is geworden en die voor morgen en voor altijd, het geheugen van onze kunst draagt. ”",
+                        "author": "Madame Pommery"
+                    }
+                },
+                {
+                    "title": "Een buitengewone locatie",
+                    "contentText": "Vanaf 1863 ontstaat er ruimtegebrek in de kelders van de privaatwoning van Madame Pommery, rue Vauthier le Noir, in het centrum van Reims. De groeiende marktontwikkeling en het voorraadbeleid die  ze in handen heeft, moeten de kwalitatieve regelmaat blijven waarborgen. Madame Pommery is er zich bewust van dat ze haar merk, dat alsmaar succesvoller wordt, alleen definitief tot succes kan brengen als ze haar onderneming op een zakelijkere manier gaat leiden en alle wijnbereidingsactiviteiten op één enkele locatie kan concentreren.\n\nDe Sainte-Nicaise heuvel, op de rand van de stad Reims, met uitzicht op de kathedraal, geeft talrijke voordelen: beschikbaar terrein, uitbreidingsmogelijkheden, gelegen langs de imperiale route en de aanwezigheid van gallo-romeinse krijtgroeves.",
+                    "images": ["content_img2"]
+                },
+                {
+                    "contentText": "In juli 1868 begint in Reims het grootste bouwproject van de 19°eeuw : de metamorfose van krijtgroeves in wijnkelders. Het enorme bouwproject duurt ongeveer 10 jaar : verschillende gebouwen optrekken, 25 ha wijngaarden aanleggen en 18 km kelders met 60 krijtgroeves verbinden. Het Domein Pommery wordt 55 ha groot, even groot als de oppervlakte van de place de la Concorde en de Jardin des Tuileries in Parijs samen."
+                }
+            ]
+        },
+        "poi3": { 
+            "thumbnail": "intro3",
+            "header":{
+                "title": "De architectuur",
+                "image": "content3",
+                "audio": "architecture"
+            },
+            "sections": [
+                {
+                    "title": "Een buitengewoon patrimonium",
+                    "contentText": "De gebouwen en aangelegde tuinen van het domein Pommery fascineren zowel bezoekers als kunst- en architectuurhistorici. De ruimteverdeling beantwoordt aan een tweevoudig doel : de rationele keuze om de onderneming goed te laten functioneren en de bewuste wil om een stadslandschapsethiek te creëeren. Gezien de engelse Society de « wereldtoon » aangeeft, heeft Madame Pommery een engelse stijl gekozen voor haar gebouwen, die we te danken hebben aan de architecten Alphonse Gosset en Charles Gozier.",
+                    "images": ["content_img3_1"]
+                },
+                {
+                    "contentText": "De Elizabethaanse neo-gothische stijl doet zijn intrede in het Domein Pommery met zijn torentjes, kantelen en donjons, gecombineerd met rode bakstenen en een grijsblauwe achtergrond. Deze keuze is wegens marketingoverwegingen gemaakt, maar dat niet alleen. Madame Pommery is zeer gastvrij en wil dat de Engelsen, grote afnemers van de Pommery champagne en trouwe bezoekers aan haar onderneming, zich hier thuisvoelen.",
+                    "images": ["content_img3_2"]
+                },
+                {
+                    "contentText": "De avant-garde stijl domineert. De keuze van een open plan staat in tegenstelling tot de architectuur van de traditionele Champagne-huizen, gebouwd volgens de principes van de statige herenhuizen van de 18° eeuw. Het interessante met een open plan is de mogelijkheid om uit te breiden. Niettemin gaat het ook om een levensvisie : grenzen openen, uitnodigen, zich openstellen aan de wereld …. tot in de 21°eeuw : sinds juli 2015 is het Domein ingeschreven op de Unesco Werelderfgoedlijst. ",
+                    "images": ["content_img3_3", "content_img3_4"]
+                }
+            ]
+        },
+        "poi4": { 
+            "thumbnail": "intro4",
+            "header":{
+                "title": "De Villa Demoiselle",
+                "image": "content4",
+                "audio": "la_villa_demoiselle"
+            },
+            "sections": [
+                {
+                    "title": "Een architectuur-symbool van Reims",
+                    "contentText": "Bij het binnenkomen op het Domein Pommery ziet u aan de rechterkant de prachtige Villa Demoiselle. Een bijzondere architectuur van het begin van de 20°eeuw, die heropbloeit in 2008 dank zij de hartstocht van de nieuwe eigenaars, Paul-François en Nathalie Vranken. Deze villa is gebouwd naar het idee van Henry Vasnier, directeur van het Champagne huis Pommery. Hij wou een elegant onderkomen voor zijn kunstcollectie, en vertrouwde de bouw in 1906 toe aan de Parijse architect Louis Sorel.\n\nDe Villa Demoiselle is, van de kelders tot de daken,  een uitstekend voorbeeld van de periode waar Art nouveau zich ontpopt in Art deco.\n\nDe buitenzijde vertoont met duidelijkheid hoeken, zoals in de Art deco stijl, terwijl in het interieur het zwierige lijnenspel van de Art nouveau schitterend tot zijn recht komt. De villa is een unieke creatie en getuige van het  samenwerken tussen architecten, ebenisten en decorateurs, die dezelfde inspiratiesbron en uitzonderlijk know-how deelden. De Villa is vandaag de vestiging en maatschappelijke zetel van de champagnes Vranken."
+                }
+            ]
+        },
+        "poi5": { 
+            "thumbnail": "intro5",
+            "header":{
+                "title": "De Clos Pompadour",
+                "image": "content5",
+                "audio": "le_clos_pompadour"
+            },
+            "sections": [
+                {
+                    "title": "Hun zeldzaamheid maakt er een grote waarde van ",
+                    "contentText": "Achter die geweldige gebouwen van het Domein Pommery bevinden zich de Clos Pompadour. Een ‘Clos’ is een volledig ommuurde wijngaard perceel of een perceel omgeven van grote hagen, waar een paard niet kan over springen. In de champagne-streek zijn er slechts enkele te vinden. Pommery beschikt over 3ha van die ommuurde wijngaarden in de stad Reims op de 25ha bestaande in de champagne streek !",
+                    "images": ["content_img5"]
+                }
+            ]
+        },
+        "poi6": { 
+            "thumbnail": "intro6",
+            "header":{
+                "title": "De Cellier Carnot",
+                "image": "content6",
+                "audio": "le_cellier_carnot"
+            },
+            "sections": [
+                {
+                    "title": "De inkomsthal",
+                    "contentText": "Hier staat u in de Cellier Carnot. Dit gebouw had oorspronkelijk een industriële bestemming, maar is nu volledig toegeweid aan de ontvangst van de bezoekers. Deze overgrote wijnkelder van 1500m² kon meer dan 300 vaten bij elkaar brengen. In die tijd werden die zorgvuldig op 3 niveaus gerangschikt.\n\nDe kelder dankt zijn naam aan de Franse president Sadi Carnot die op 18 september 1891 Pommery bezocht. De droom van Madame Pommery was om de wijnkelder met iedereen te delen. Dat gebeurde vanaf 1878 : de eerste bezoekers lieten hun handtekening in het gulden boek.",
+                    "images": ["content_img6_1", "content_img6_2"]
+                }
+            ]
+        },
+        "poi7": { 
+            "thumbnail": "intro7",
+            "header":{
+                "title": "Het wijnvat van Émile Gallé",
+                "image": "content7",
+                "audio": "le_foudre_emile_galle"
+            },
+            "sections": [
+                {
+                    "title": "Een ere aan de Frans-Amerikaanse vriendschap",
+                    "contentText": "In 1903 heeft het Champagnehuis een groot wijnvat nodig, om de verschillende cru’s te mengen..\n\nEr werd een vat van 75 000 liters, evenveel als 100 000 flessen, besteld aan de gebruikelijke kuiperij Frühinsholz, gevestigd in Nancy. Aangezien de Amerikaanse afzetmarkt cruciaal was voor Pommery en terzelfdertijd een Wereldtentoontstelling werd georganiseerd in de Verenigde Staten, kwam het idee om het grote vat naar  Saint Louis (Missouri) als publiciteitsstunt te sturen. De opening ervan was voorzien op 30 april 1904. Henry Vasnier heeft intussen aan Emile Gallé gevraagd om de façade van het grote vat in een Art nouveau kunstwerk uit te werken.\n\nHet grote vat, net op tijd afgewerkt, werd in onderdelen naar de Verenigde Staten verschipt. Na de Wereldtentoonstelling van Saint Louis, waar de enorme ton werd op- en afgebouwd, kreeg het zijn definitieve plaats in het Champagnehuis Pommery, waar u die vandaag nog kunt zien.",
+                    "images": ["content_img7_1", "content_img7_2"]
+                },
+                {
+                    "contentText": "Beneden rechts staat een jonge vrouw, die vanuit de champagne-wijngaard, het imago van Frankrijk voorstelt. Ze reikt een glas champagne aan de jonge Amerika, die op de oude Amerika zit, voorgesteld door een sfinx met een het gezicht van een indiaan. Bovenaan domineert een derde vrouwelijke figuur, de geest van de handel, die vanuit haar curulische zetel de handelsmacht symboliseert. Boven rechts staat het schip afgebeeld die de uitzonderlijke reis voerde om het vat naar de Verenigde Staten te brengen. Beneden links kunt u de kathedraal van Reims zien, boven links het Vrijheidsbeeld, geankerd in de haven van New York, beide nationale symbolen.\n\nIn de context van de tentoonstelling, L’Art en Europe, Experience Pommery #5, heeft de kunstenares Sophie Nys in 2008 7 bomen geplant in het park van Pommery, die overeenstemmen met de 7 houtsoorten van het wijnvat.",
+                    "images": ["content_img7_3", "content_img7_4", "content_img7_5"]
+                }
+            ]
+        },
+        "poi8": { 
+            "thumbnail": "intro8",
+            "header":{
+                "title": "The Spirit of\nThe Grape",
+                "image": "content8",
+                "audio": "the_spirit_of_the_grape"
+            },
+            "sections": [
+                {
+                    "title": "Een kunstwerk van Chris Burden  ",
+                    "contentText": "De Amerikaan Chris Burden heeft zijn hoofdkunstwerk The Spirit of the Grape (De geest van de Wijn) aan de instelling le FRAC (Fonds Régional d’Art Contemporain) Champagne-Ardenne geschonken. Het landschap beschrijft de realistische champagnewijngaard met « arme materialen », zoals aarde, hout en tijm. De nodige restauratie werd gesteund door Vranken Pommery Monopole en vergde het talent van zes restauratrices gedurende meerdere maanden."
+                }
+            ]
+        },
+        "poi9": { 
+            "thumbnail": "intro9",
+            "header":{
+                "title": "Würsa",
+                "image": "content9",
+                "audio": "wursa"
+            },
+            "sections": [
+                {
+                    "title": "Een stuk poëzie",
+                    "contentText": "Door verschillende wetenschappelijke berekeningen is Daniel Firman tot de vaststelling gekomen dat een olifant op zijn slurf kan staan als die 18 000 km van de wereld is verwijderd : door de zwakke aantrekkingskracht zou dat kunnen op een planeet met een omtrek van 2 484 003,1 m.\n\nDe Pommery - bezoeker is dus getuige van een fysieke en psychologische spectaculaire ervaring, waar een hyperrealistische sculptuur over licht gewicht en zwaarte spreekt. Würsa is een kunstwerk die deel uitmaakt van de collectie Vranken Pommery Monopole."
+                }
+            ]
+        }
+    }
+}
