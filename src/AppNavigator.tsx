@@ -25,7 +25,7 @@ function ProfileScreen({ navigation }) {
 function AppNavigator() {
   return (
       <Stack.Navigator
-        initialRouteName="IntroComponent"
+        initialRouteName="TermsComponent"
       >
         <Stack.Screen name="TermsComponent" component={TermsComponent} />
         <Stack.Screen name="MapComponent" component={MapComponent} />

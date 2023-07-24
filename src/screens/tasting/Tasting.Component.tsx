@@ -14,12 +14,15 @@ import MenuComponent from '../common/Menu.Component';
 import ParsedText from 'react-native-parsed-text';
 import Video, { Container } from 'react-native-af-video-player'
 import { videoUrl, tastingPage } from '../../utilities/Constants';
+// import VideoPlayers from 'react-native-video-players';
+
 var Orientation = require('react-native-orientation');
 
 import { bootle1, bootle2, bootle3, bootle4, bootle5 } from './resources/tasting';
 import { Bootle } from '../../model/Bootle';
 import Images from '../../images/images';
 import { locale } from '../../utilities/Strings';
+import {LinearGradient} from 'expo-linear-gradient';
 
 interface Props {
   navigation: NavigationScreenProp<NavigationRoute>
@@ -65,9 +68,7 @@ const TastingComponent = ({ navigation }) => {
 
 //   constructor(props: Props) {
 //     super(props)
-
 //     this._goTo = this._goTo.bind(this);
-
 //     this.state = {
 //       paused: true,
 //       showThumbnail: true
@@ -77,7 +78,6 @@ const TastingComponent = ({ navigation }) => {
 //   _renderText(matchingString: string) {
 //     let html = matchingString.replace(/<bold>/g, "");
 //     html = html.replace(/<\/bold>/g, "");
-
 //     return html
 //   }
 
@@ -85,7 +85,7 @@ const TastingComponent = ({ navigation }) => {
 
 //     return (
 
-//       <Container style={styles.container as ViewStyle} >
+//       <View style={styles.container as ViewStyle} >
         
 //         <ScrollView showsVerticalScrollIndicator={false}>
 //           <View style={styles.bgBlue}>
@@ -158,7 +158,7 @@ const TastingComponent = ({ navigation }) => {
 //         <MenuComponent active={tastingPage} expanded={true} tutorial={false} navigation={this.props.navigation}></MenuComponent>
         
 //         <View style={[ {display: this.state.paused ? 'none' : 'flex'}]}>
-//             <Video 
+//             {/* <Video 
 //                 ref={(ref: any) => {
 //                   this.player = ref
 //                 }} 
@@ -171,10 +171,21 @@ const TastingComponent = ({ navigation }) => {
 //                 onFullScreen={(status: boolean) => this._onFullScreen(status)}
 //                 onEnd={() => this._onEnd()}
 //                 onPlay={(status: boolean) => this._onPlayPause(status)}
-//               />
+//               /> */}
+//               {/* <VideoPlayers
+//                 source={{
+//                   uri: videoUrl,
+//                 }}
+//                 title={'Video title'}
+//                 // paused={paused}
+//                 resizeMode={'contain'}
+//                 playInBackground={true}
+//                 playWhenInactive={true}
+//                 controlTimeout={2000}
+//               /> */}
 //         </View>
         
-//       </Container>
+//       </View>
     
 //     )
 
