@@ -36,6 +36,14 @@ interface Style {
   resultsCountLabel: TextStyle
 }
 
+// const MapComponent = ({ navigation }) => {
+//     console.log('+++ MapComponent navigation', navigation)
+//     return (
+//         <View>
+//             <Text>MapComponent</Text>
+//         </View> 
+//     )
+// }
 class MapComponent extends React.Component<Props, State> {
 
   constructor(props: Props) {
@@ -59,41 +67,6 @@ class MapComponent extends React.Component<Props, State> {
     return true
   }
 
-  render() {
-
-    const selected = this.state.selectedPOI
-    let map
-    if (this.props.isFocused) {
-      map = <Content scrollEnabled={false}>
-
-        <View style={{ width: '100%', height: '100%' }}>
-          <PommeryMapComponent 
-            navigation={this.props.navigation} 
-            isSecurity={this.state.isSecurity} 
-            onSelectedPOI={this._showPOIToast.bind(this)} 
-            selectedPOI={this.state.selectedPOI}
-            onBackgroundSelected={this._hidePOIToast.bind(this)}/>
-        </View>
-      </Content>
-    }
-
-    return (
-      <Container style={styles.container as ViewStyle}>
-        {map}
-        {selected && !this.state.isSecurity &&
-          <POINavItem navigation={this.props.navigation} poi={selected}></POINavItem>
-        }
-
-        {this.state.isSecurity &&
-          <SecurityComponent onClose={() => this._toogleSecurity()}></SecurityComponent>
-        }
-        <MenuComponent active={mapPage} expanded={true} tutorial={false} navigation={this.props.navigation} onSecurityPress={() => this._toogleSecurity()}></MenuComponent>
-
-        <CustomStatusBar barStyle={"dark-content"} backgroundColor={'rgba(255, 255, 255, 0.6)'} />
-      </Container>
-    )
-  }
-
   _showPOIToast(poi: POI) {
     if (this.state.selectedPOI != undefined && poi.header.title == this.state.selectedPOI.header.title) {
       this.setState({selectedPOI: undefined})
@@ -111,6 +84,44 @@ class MapComponent extends React.Component<Props, State> {
     this.setState({
       isSecurity: !this.state.isSecurity
     })
+  }
+
+  render() {
+
+    const selected = this.state.selectedPOI
+    let map
+    if (this.props.isFocused) {
+      map = (
+        // <Container scrollEnabled={false}>
+        <View>
+          <View style={{ width: '100%', height: '100%' }}>
+            <PommeryMapComponent 
+              navigation={this.props.navigation} 
+              isSecurity={this.state.isSecurity} 
+              onSelectedPOI={this._showPOIToast.bind(this)} 
+              selectedPOI={this.state.selectedPOI}
+              onBackgroundSelected={this._hidePOIToast.bind(this)}
+            />
+          </View>
+      </View>
+      )
+    }
+
+    return (
+      <View style={styles.container as ViewStyle}>
+        { map }
+        {selected && !this.state.isSecurity &&
+          <POINavItem navigation={this.props.navigation} poi={selected}></POINavItem>
+        }
+
+        {this.state.isSecurity &&
+          <SecurityComponent onClose={() => this._toogleSecurity()}></SecurityComponent>
+        }
+        <MenuComponent active={mapPage} expanded={true} tutorial={false} navigation={this.props.navigation} onSecurityPress={() => this._toogleSecurity()}></MenuComponent>
+
+        <CustomStatusBar barStyle={"dark-content"} backgroundColor={'rgba(255, 255, 255, 0.6)'} />
+      </View>
+    )
   }
 }
 
