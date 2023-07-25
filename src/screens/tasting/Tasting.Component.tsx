@@ -57,7 +57,7 @@ const TastingComponent = ({ navigation }) => {
     return html
   }
   const goTo = (bootle: Bootle) => {
-    navigation.navigate("BootleDetail", { object: bootle })
+    navigation.navigate("BottleDetail", { object: bootle })
   }
 
   const playVideo = async () => {

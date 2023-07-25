@@ -6,7 +6,7 @@ import MapComponent from './screens/map/Map.Component';
 import IntroComponent from './screens/intro/Intro.Component';
 import ContentDetail from './screens/contentDetail/ContentDetail';
 import TastingComponent from './screens/tasting/Tasting.Component';
-import BootleDetail from './screens/tasting/BootleDetail';
+import BottleDetail from './screens/tasting/BottleDetail';
 import TermsComponent from './screens/terms/Terms.Component';
 
 
@@ -32,7 +32,7 @@ function AppNavigator() {
 
         <Stack.Screen name="TastingComponent" component={TastingComponent} />
         <Stack.Screen name="ContentDetail" component={ContentDetail} />
-        <Stack.Screen name="BootleDetail" component={BootleDetail} />
+        <Stack.Screen name="BottleDetail" component={BottleDetail} />
         <Stack.Screen name="MapComponent" component={MapComponent} />
       </Stack.Navigator>
   );
