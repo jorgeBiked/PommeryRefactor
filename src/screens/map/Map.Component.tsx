@@ -87,7 +87,6 @@ class MapComponent extends React.Component<Props, State> {
   }
 
   render() {
-
     const selected = this.state.selectedPOI
     let map
     if (this.props.isFocused) {

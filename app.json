@@ -16,7 +16,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kaijordi2.AwesomeProject"
+      "bundleIdentifier": "com.kaijordi2.AwesomeProject",
+      "requireFullScreen": true
     },
     "android": {
       "adaptiveIcon": {
@@ -27,6 +28,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ]
+    ]
   }
 }
