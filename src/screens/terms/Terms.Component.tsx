@@ -1,4 +1,5 @@
-import React from 'react';
+// @ts-nocheck	
+import React, { useEffect } from 'react';
 import { Text, StyleSheet, View, ViewStyle, TextStyle, ScrollView, Image, TouchableOpacity, BackHandler, StatusBar, Platform } from 'react-native';
 
 import {
@@ -6,8 +7,7 @@ import {
   NavigationRoute
 } from 'react-navigation';
 
-import { Container } from 'native-base';
-import { colors, fontSizes, fonts, globalStyles } from '../../styles';
+import { colors, fontSizes, fonts } from '../../styles';
 import Images from '../../images/images'
 import { locale } from '../../utilities/Strings';
 import CustomStatusBar from '../common/StatusBar';
@@ -31,120 +31,52 @@ interface Style {
     bold: TextStyle
 }
 
-class TermsComponent extends React.Component<Props> {
+const BulletView = ({ text }) => {
+    return (
+        <View style={styles.li}>
+            <Text style={styles.bullet}>{'\u2022'}</Text>
+            <Text style={styles.liText}>{locale(text)}</Text>
+        </View>
+    )
+}
 
-    constructor(props: Props) {
-        super(props)
-    }
+const TitleText =  ({ text }) => {
+    return <Text style={[styles.paragraph, styles.bold]}>{text}</Text>
+}
 
-    _renderBoldText(matchingString: string) {
-        let match = matchingString.replace(/<bold>/g, "")
-        match = match.replace(/<\/bold>/g, "")
-        return match
-    }
+const TermsComponent = ({ navigation }) => {
 
-    componentDidMount() {
-        BackHandler.addEventListener('hardwareBackPress', this.handleBackButton)
-    }
+    const indexList1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    const indexList2 = [10, 11, 12];
+    const handleBackButton = () => BackHandler.exitApp()
+    const _acceptConditions = () => navigation.navigate('IntroComponent')
 
-    componentWillUnmount() {
-        BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton)
-    }
-
-    handleBackButton() {
-        BackHandler.exitApp()
-        return true
-    }
-
-    _acceptConditions() {
-        this.props.navigation.navigate('IntroComponent')
-    }
+    useEffect(() => {
+        BackHandler.addEventListener('hardwareBackPress', handleBackButton)
+        return () => BackHandler.removeEventListener('hardwareBackPress', handleBackButton)
+    },[]);
   
-    render() {   
-        return (
+    return (
         <View style={styles.container as ViewStyle}>
             <Text>{'Teeeerms91'}</Text>
             <Image style={styles.splash} resizeMethod="resize" resizeMode="contain" source={Images('splashscreen')} />
-            
             <ScrollView showsVerticalScrollIndicator={false}>
-            
                 <Text style={styles.heading}>{locale('terms0')}</Text>
-
                 <View style={styles.scrollContent}>
-
-                    <Text style={[styles.paragraph, styles.bold]}>{locale('terms1')}</Text>
-
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets0')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets1')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets2')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets3')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets4')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets5')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets6')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets7')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets8')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets9')}</Text>
-                    </View>
-                    <Text style={[styles.paragraph, styles.bold]}>{locale('terms2')}</Text>
-
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets10')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets11')}</Text>
-                    </View>
-                    <View style={styles.li}>
-                        <Text style={styles.bullet}>{'\u2022'}</Text>
-                        <Text style={styles.liText}>{locale('terms_bullets12')}</Text>
-                    </View>
-
-                    <TouchableOpacity style={[styles.buttonView]} onPress={this._acceptConditions.bind(this)}>
+                    <TitleText text={locale('terms1')} />
+                    { indexList1.map(item => <BulletView key={item} text={`terms_bullets${item}`} />) }
+                    <TitleText text={locale('terms2')} />
+                    { indexList2.map(item => <BulletView key={item} text={`terms_bullets${item}`} />) }
+                    <TouchableOpacity style={[styles.buttonView]} onPress={_acceptConditions}>
                         <Text style={[styles.buttonText]}>{locale('terms_accept').toUpperCase()}</Text>
                     </TouchableOpacity>
-
-                </View>
-                
+                </View>   
             </ScrollView>
-
             <CustomStatusBar barStyle={"light-content"} backgroundColor={'rgba(0, 0, 0, 0.6)'}/>
-            
         </View>
-        )
-    }
+    )
 
 }
-
 
 const styles = StyleSheet.create<Style>({
     splash: {

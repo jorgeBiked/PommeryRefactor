@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import { 
-  Text, StyleSheet, View, ViewStyle, TextStyle, ScrollView, Image, Platform, StatusBar
+  Text, StyleSheet, View, ViewStyle, TextStyle, ScrollView, Image, Platform, Alert,
 } from 'react-native';
 
 import {
