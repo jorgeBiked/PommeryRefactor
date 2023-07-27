@@ -1,13 +1,13 @@
+// @ts-nocheck
 import React from 'react';
-import { Text, StyleSheet, ViewStyle, TextStyle, ScrollView, Image, View } from 'react-native';
+import { 
+  Text, StyleSheet, ViewStyle, TextStyle, ScrollView, View 
+} from 'react-native';
 
 import {
   NavigationScreenProp,
   NavigationRoute,
-  withNavigation
 } from 'react-navigation';
-
-import { Container } from 'native-base';
 
 import { colors, fontSizes, fonts } from '../../styles';
 import PoiComponent from './Poi.Component';
@@ -23,42 +23,16 @@ interface Style {
   subTitleCapital: TextStyle
 }
 
-class PlacesComponent extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props)
-  }
-
-  render() {
-     
-    if (this.props.pois) {
-
-      return (
-      
-        <Container style={styles.container as ViewStyle}>
-          <Text style={styles.subTitleCapital}>{this.props.title.toUpperCase()}</Text>
-  
-          <ScrollView showsHorizontalScrollIndicator={false} horizontal={true}>
-            {this.props.pois.map(poi => 
-            
-              <PoiComponent key={poi.header.title} navigation={this.props.navigation} poi={poi}>
-                  
-              </PoiComponent>
-            
-            )}
-
-           
-          </ScrollView>
-        </Container>
-      )
-
-    } else {
-      return null
-    }
-
-
-    
-  }
-
+const PlacesComponent = ({ navigation, title, pois }) => {
+    if (!pois) return null 
+    return (
+      <View style={styles.container as ViewStyle}>
+        <Text style={styles.subTitleCapital}>{title?.toUpperCase()}</Text>
+        <ScrollView showsHorizontalScrollIndicator={false} horizontal={true}>
+          { pois.map( poi => <PoiComponent key={poi?.header?.title} navigation={navigation} poi={poi} /> ) }
+        </ScrollView>
+      </View>
+    )
 }
 
 const styles = StyleSheet.create<Style>({
@@ -80,4 +54,5 @@ const styles = StyleSheet.create<Style>({
     }
 });
 
-export default withNavigation(PlacesComponent);
+export default PlacesComponent;
+

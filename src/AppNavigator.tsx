@@ -25,14 +25,14 @@ function ProfileScreen({ navigation }) {
 function AppNavigator() {
   return (
       <Stack.Navigator
-        initialRouteName="TastingComponent"
+        initialRouteName="IntroComponent"
       >
         <Stack.Screen name="TermsComponent" component={TermsComponent} />
         <Stack.Screen name="IntroComponent" component={IntroComponent} />
-
         <Stack.Screen name="TastingComponent" component={TastingComponent} />
-        <Stack.Screen name="ContentDetail" component={ContentDetail} />
         <Stack.Screen name="BottleDetail" component={BottleDetail} />
+        <Stack.Screen name="ContentDetail" component={ContentDetail} />
+
         <Stack.Screen name="MapComponent" component={MapComponent} />
       </Stack.Navigator>
   );
