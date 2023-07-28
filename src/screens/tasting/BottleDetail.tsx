@@ -4,7 +4,7 @@ import {
     Text, StyleSheet, ViewStyle, TextStyle, Image, ScrollView, TouchableOpacity, View, BackHandler, 
 } from 'react-native';
 
-import {  globalStyles, colors, fontSizes, fonts } from '../../styles';
+import { globalStyles, colors, fontSizes, fonts } from '../../styles';
 import SectionComponent from '../common/SectionComponent';
 import { Bootle } from '../../model/Bootle';
 import SliderComponent from './Slider.Component';

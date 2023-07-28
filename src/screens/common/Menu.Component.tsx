@@ -1,3 +1,4 @@
+// @ts-nocheck	
 import React from 'react';
 import { Text, StyleSheet, View, ViewStyle, TextStyle, Image, TouchableOpacity, Animated, Dimensions } from 'react-native';
 import { introPage, mapPage, tastingPage } from '../../utilities/Constants'
@@ -9,6 +10,7 @@ import {
 
 import { globalStyles, colors, fonts, fontSizes} from '../../styles';
 import { Icon } from 'native-base';
+import { AntDesign, Entypo } from '@expo/vector-icons'; 
 import Images from '../../images/images';
 import { locale } from '../../utilities/Strings';
 
@@ -149,7 +151,13 @@ class MenuComponent extends React.Component<Props, State> {
                     {/* MENU BUTTON */}
                     <TouchableOpacity onPress={this._toggleMenu.bind(this)}>
                         <View style={styles.closeButtonView}>
-                            <Icon style={[styles.menuIcon, this.state.active == mapPage && !this.state.menuExpanded ? styles.menuIconMap : null, {fontSize: this.state.menuExpanded ? 45 : 30}]} name={this.state.menuExpanded ? 'ios-close': 'ios-menu'}/>
+                            {
+                                this.state.menuExpanded
+                                ? <AntDesign name={"close"} size={30} color={colors.orange} />
+                                : <Entypo name={"menu"} size={30} color={colors.orange} style={styles.iconMenu}/>
+                            }
+                            {/* <AntDesign name={this.state.menuExpanded ? "close": "menu"} size={fontSizes.mediumxBig} color={colors.orange} /> */}
+                            {/* <Icon style={[styles.menuIcon, this.state.active == mapPage && !this.state.menuExpanded ? styles.menuIconMap : null, {fontSize: this.state.menuExpanded ? 45 : 30}]} name={this.state.menuExpanded ? 'ios-close': 'ios-menu'}/> */}
                             <Text style={[styles.menuText, {display: this.state.active == mapPage && !this.state.menuExpanded ? 'flex' : 'none'}]}>{locale('menu').toUpperCase()}</Text>
                         </View>
                     </TouchableOpacity>
@@ -162,7 +170,8 @@ class MenuComponent extends React.Component<Props, State> {
                     <View style={[styles.securityView, globalStyles.shadow]}>
                         <TouchableOpacity onPress={this._showExit.bind(this)}>
                             <View style={styles.closeButtonView}>
-                                <Icon style={styles.securityIcon} name='directions-run' type="MaterialIcons"/>
+                                <Entypo name="man" size={fontSizes.mediumxBig} color={colors.orange} />
+                                {/* <Icon style={styles.securityIcon} name='directions-run' type="MaterialIcons"/> */}
                                 <Text style={styles.securityText}>{locale('security').toUpperCase()}</Text>
                             </View>
                         </TouchableOpacity>
@@ -277,6 +286,10 @@ const styles = StyleSheet.create<Style>({
         paddingLeft: 5,
         paddingRight: 5,
     },
+    iconMenu: {
+        position: 'relative',
+        top: -4,
+    },
     menuButtonView: {
         height: 50,
         width: 95,
@@ -301,11 +314,11 @@ const styles = StyleSheet.create<Style>({
     closeButtonView: {
         margin: 0,
         padding: 0,
-
         width: 50,
         height: 50,
         justifyContent: 'center',
         alignItems: 'center',
+        flexDirection: 'column',
     },
     menuIcon: {
         fontSize: 45,

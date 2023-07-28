@@ -8,8 +8,7 @@ import {
 } from 'react-navigation';
 
 import { colors, fonts} from '../../styles';
-import { Icon } from 'native-base';
-
+import { AntDesign } from '@expo/vector-icons';
 interface Props {
   navigation: NavigationScreenProp<NavigationRoute>
   title?: string
@@ -25,36 +24,16 @@ interface Style {
     arrow: TextStyle
 }
 
-class ButtonComponent extends React.Component<Props, State> {
-    constructor(props: Props) {
-        super(props)
-
-        this.state = {
-            
-        }
-    }
-
-    render() {
-        let title
-        if (this.props.title) {
-            title = <Text style={styles.text}>{this.props.title.toUpperCase()}</Text>
-        }
-
-        return (
-
-            <TouchableOpacity style={[styles.buttonView, this.props.style]} onPress={this._goTo.bind(this)}>
-     
-                {title}
-
-                <Icon style={[styles.arrow, this.props.arrowStyle]} name="ios-arrow-round-forward"/>
-            </TouchableOpacity>
-        );
-    }
-
-    _goTo() {
-        this.props.navigation.navigate(this.props.screen, {object: this.props.object})
-    }
-    
+const ButtonComponent = ({ navigation, title, screen, object, style, arrowStyle }:Props) => {
+    let newTitle = null;
+    const _goTo = () => navigation.navigate(screen, { object })
+    if (title) newTitle = <Text style={styles.text}>{title.toUpperCase()}</Text>
+    return (
+        <TouchableOpacity style={[styles.buttonView, style]} onPress={_goTo}>
+            { newTitle }
+            <AntDesign name="arrowright" size={24} color={colors.secondaryColor} />
+        </TouchableOpacity>
+    );
 }
 
 const styles = StyleSheet.create<Style>({

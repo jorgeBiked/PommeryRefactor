@@ -23,33 +23,18 @@ interface Style {
     text: TextStyle
     image: ViewStyle
 }
-
-class PoiComponent extends React.Component<Props> {
-    constructor(props: Props) {
-        super(props)
-    }
-
-    render() {
-        if (this.props.poi) {
-
-            return (
-                <TouchableOpacity onPress={this._goTo.bind(this)}>
-                    <View style={styles.poiView} >
-                        <Image style={styles.image} resizeMode="contain" source={Images(this.props.poi.thumbnail)} />
-                        
-                        <Text numberOfLines={2} style={styles.text}>{this.props.poi.header.title}</Text>
-                        <ButtonComponent navigation={this.props.navigation} screen="ContentDetail" object={this.props.poi}></ButtonComponent>
-                    </View>
-                </TouchableOpacity>
-            )
-        } else {
-            return null
-        }
-    }
-    
-    _goTo() {
-        this.props.navigation.navigate("ContentDetail", {object: this.props.poi})
-    }
+const PoiComponent = ({ navigation, poi }) => {
+    const _goTo = () => navigation.navigate("ContentDetail", {object: poi})
+    if (!poi) return null;
+    return (
+        <TouchableOpacity onPress={_goTo}>
+            <View style={styles.poiView} >
+                <Image style={styles.image} resizeMode="contain" source={Images(poi.thumbnail)} />
+                <Text numberOfLines={2} style={styles.text}>{poi?.header?.title}</Text>
+                <ButtonComponent navigation={navigation} screen="ContentDetail" object={poi} />
+            </View>
+        </TouchableOpacity>
+    )
 }
 
 const styles = StyleSheet.create<Style>({
@@ -70,7 +55,7 @@ const styles = StyleSheet.create<Style>({
         paddingBottom: 0,
         paddingTop: 15,
         fontSize: 17,
-        fontFamily: fonts.pommery_bold,
+        fontFamily: fonts?.pommery_bold,
         height: 60
     },
     image: {

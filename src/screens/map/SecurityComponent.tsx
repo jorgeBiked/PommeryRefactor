@@ -1,7 +1,7 @@
+// @ts-nocheck	
 import React from 'react'
 import { View, Icon } from 'native-base';
 import { Text, StyleSheet, ViewStyle, TextStyle, Image, TouchableOpacity, ScrollView, Platform } from 'react-native';
-
 import globalStyles from '../../styles/styles';
 import { locale } from '../../utilities/Strings';
 import { fonts, colors, fontSizes } from '../../styles';
@@ -26,111 +26,50 @@ interface Style {
 
 const PADDING_TOP = Platform.OS === 'ios' ? isIphoneX()? 34 : 20 : 22
 
-interface Props {
-    onClose?: any
+const BulletView1 = ({ color, index }) => {
+    return (
+        <View style={styles.li}>
+            <Image style={[styles.bulletImage]} resizeMode="contain" source={Images(color)} />
+            <Text style={styles.liText}>{locale(`map_security${index}`)}</Text>
+        </View>
+    )
 }
-interface State {
 
+const BulletView2 = ({ index }) => {
+    return (
+        <View style={styles.li}>
+            <Text style={styles.bullet}>{'\u2022'}</Text>
+            <Text style={styles.liText}>{locale(`terms_bullets${index}`)}</Text>
+        </View>
+    )
 }
 
-class SecurityComponent extends React.Component<Props, State> {
+const SecurityComponent = ({ onClose }) => {
 
-    constructor(props: Props) {
-        super(props)
-
-        this.state = {
-           
-        }
-    }
-
-    render() {
+        const list1 = ['yellow', 'blue', 'brown', 'arrow', 'phone', 'alarm'];
+        const list2 = [0, 1, 2, 0, 1, 2];
         const card = (
- 
             <ScrollView style={{flex:1}}>
-
-                <View style={styles.li}>
-                    <Image style={[styles.bulletImage]} resizeMode="contain" source={Images('yellow')} />
-                    <Text style={styles.liText}>{locale('map_security0')}</Text>
-                </View>
-                <View style={styles.li}>
-                    <Image style={[styles.bulletImage]} resizeMode="contain" source={Images('blue')} />
-                    <Text style={styles.liText}>{locale('map_security1')}</Text>
-                </View>
-                <View style={styles.li}>
-                    <Image style={[styles.bulletImage]} resizeMode="contain" source={Images('brown')} />
-                    <Text style={styles.liText}>{locale('map_security2')}</Text>
-                </View>
-                <View style={styles.li}>
-                    <Image style={[styles.bulletImage]} resizeMode="contain" source={Images('arrow')} />
-                    <Text style={styles.liText}>{locale('map_security3')}</Text>
-                </View>
-                <View style={styles.li}>
-                    <Image style={[styles.bulletImage]} resizeMode="contain" source={Images('phone')} />
-                    <Text style={styles.liText}>{locale('map_security4')}</Text>
-                </View>
-                <View style={styles.li}>
-                    <Image style={[styles.bulletImage]} resizeMode="contain" source={Images('alarm')} />
-                    <Text style={styles.liText}>{locale('map_security5')}</Text>
-                </View>
-
+                { list1.map((color, index) => <BulletView1 key={color} color={color} index={index} />) }
                 <Text style={[styles.paragraph, globalStyles.bold]}>{locale('terms1')}</Text>
-        
-                <View style={styles.li}>
-                    <Text style={styles.bullet}>{'\u2022'}</Text>
-                    <Text style={styles.liText}>{locale('terms_bullets0')}</Text>
-                </View>
-
-                <View style={styles.li}>
-                    <Text style={styles.bullet}>{'\u2022'}</Text>
-                    <Text style={styles.liText}>{locale('terms_bullets1')}</Text>
-                </View>
-
-                <View style={styles.li}>
-                    <Text style={styles.bullet}>{'\u2022'}</Text>
-                    <Text style={styles.liText}>{locale('terms_bullets2')}</Text>
-                </View>
-
-                <View style={styles.li}>
-                    <Text style={styles.bullet}>{'\u2022'}</Text>
-                    <Text style={styles.liText}>{locale('terms_bullets0')}</Text>
-                </View>
-
-                <View style={styles.li}>
-                    <Text style={styles.bullet}>{'\u2022'}</Text>
-                    <Text style={styles.liText}>{locale('terms_bullets1')}</Text>
-                </View>
-
-                <View style={styles.li}>
-                    <Text style={styles.bullet}>{'\u2022'}</Text>
-                    <Text style={styles.liText}>{locale('terms_bullets2')}</Text>
-                </View>
-            </ScrollView>
-            
+                { list2.map((item, index) => <BulletView2 key={`${item}_${index}`} index={item} />) }
+            </ScrollView>  
         )
         
         return (
-        <View style={styles.container} pointerEvents="none"> 
-
-            <View style={[globalStyles.shadow, styles.securityHeader]}>
-                <Text style={styles.securityHeaderTitle}>{locale('security')}</Text>      
-            </View>
-
-            <SwipeUpDown
-                itemMini={card}
-                itemFull={card}
-                disablePressToShow={false}
-                style={{ backgroundColor: '#fff' }} 
+            <View style={styles.container} pointerEvents="none"> 
+                <View style={[globalStyles.shadow, styles.securityHeader]}>
+                    <Text style={styles.securityHeaderTitle}>{locale('security')}</Text>      
+                </View>
+                <SwipeUpDown
+                    itemMini={card}
+                    itemFull={card}
+                    disablePressToShow={false}
+                    style={{ backgroundColor: '#fff' }}
                 />
-
-        </View>
+            </View>
         )
-    }
-
-    _closeSecurity() {
-        this.props.onClose()
-    }
 }
-
 
 const styles = StyleSheet.create<Style>({
     container: {

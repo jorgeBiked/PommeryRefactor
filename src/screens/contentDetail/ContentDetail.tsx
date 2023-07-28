@@ -9,8 +9,8 @@ import {
   NavigationScreenProp,
   NavigationRoute
 } from 'react-navigation';
-import {  globalStyles, colors, fontSizes, fonts } from '../../styles';
-import { Icon } from 'native-base';
+import { globalStyles, colors, fontSizes, fonts } from '../../styles';
+import { AntDesign } from '@expo/vector-icons';
 import { POI } from '../../model/POI';
 import AudioFr from '../../audio/audio_fr';
 import AudioEn from '../../audio/audio_en';
@@ -312,7 +312,8 @@ const ContentDetail = ({ route, navigation }) => {
                 </Animated.View>
 
                 <TouchableOpacity style={styles.closeButtonView} onPress={close}>      
-                    <Icon style={[globalStyles.shadow, {color: colors.white, fontSize: 50}]} name="ios-close"/>
+                    {/* <Icon style={[globalStyles.shadow, {color: colors.white, fontSize: 50}]} name="ios-close"/> */}
+                    <AntDesign name="close" size={24} color={colors.white} />
                 </TouchableOpacity>
               
                 <CustomStatusBar barStyle={"light-content"} backgroundColor={'rgba(0, 0, 0, 0.6)'}/>

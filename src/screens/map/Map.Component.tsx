@@ -58,7 +58,7 @@ const MapComponent = ({ navigation }) => {
     }
   
     const _toogleSecurity = () => {
-      this.setState({ ...state, isSecurity: !state.isSecurity })
+      setState({ ...state, isSecurity: !state.isSecurity })
     }
 
     useEffect(() => {

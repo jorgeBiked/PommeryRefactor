@@ -7,14 +7,11 @@ import {
 } from 'react-navigation';
 
 import {  globalStyles, colors, fonts, fontSizes } from '../../styles';
-
 import { View } from 'native-base';
-
 import { SectionParams } from '../../model/POISection';
 import { POIQuote } from '../../model/POIQuote';
 import { POITagCloud } from '../../model/POITagCloud';
 import ParsedText from 'react-native-parsed-text';
-
 import Image from 'react-native-scalable-image';
 import Images from '../../images/images';
 

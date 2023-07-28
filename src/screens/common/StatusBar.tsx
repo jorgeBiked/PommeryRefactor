@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, ViewStyle, StatusBar, Platform, StatusBarStyle, Text } from 'react-native';
-
 import { View } from 'native-base';
 import { isIphoneX } from 'react-native-iphone-x-helper'
 
@@ -15,21 +14,13 @@ interface Style {
 
 const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? isIphoneX() ? 44 : 20 : 0
 
-class CustomStatusBar extends React.Component<Props> {
-    constructor(props: Props) {
-        super(props)
-    }
-
-    render() {
-        return (
-            <View style={[styles.statusBar, {backgroundColor: this.props?.backgroundColor}]}>
-                <StatusBar hidden={false} translucent={true} barStyle={this?.props?.barStyle} backgroundColor={this?.props?.backgroundColor} />
-            </View>
-        )
-    }
-    
+const CustomStatusBar = ({ backgroundColor, barStyle }) => {
+    return (
+        <View style={[styles.statusBar, { backgroundColor }]}>
+            <StatusBar hidden={false} translucent={true} barStyle={barStyle} backgroundColor={backgroundColor} />
+        </View>
+    )
 }
-
 
 const styles = StyleSheet.create<Style>({
     statusBar: {
