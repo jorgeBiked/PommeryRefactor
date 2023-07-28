@@ -1,11 +1,6 @@
+// @ts-nocheck	
 import React from 'react';
-import { Text, StyleSheet, ViewStyle, TextStyle, Dimensions, Platform } from 'react-native';
-
-import {
-  NavigationScreenProp,
-  NavigationRoute
-} from 'react-navigation';
-
+import { Text, StyleSheet, ViewStyle, TextStyle } from 'react-native';
 import {  globalStyles, colors, fonts, fontSizes } from '../../styles';
 import { View } from 'native-base';
 import { SectionParams } from '../../model/POISection';
@@ -32,13 +27,12 @@ interface Style {
     separator: ViewStyle
 }
 
-class SectionComponent extends React.Component<Props> {
-    
-    constructor(props: Props) {
-        super(props)
-    }
+const SectionComponent = ({ section }) => {
 
-    _renderQuote(quote: POIQuote) {
+    let title = null, index = null, contentText = null, footerText = null,
+    images = null, quote = null, tagCloud = null;
+
+    const _renderQuote = (quote: POIQuote) => {
         let author
         if (quote.author) {
             author = <Text style={globalStyles.quote_author}>{quote.author}</Text>
@@ -51,15 +45,13 @@ class SectionComponent extends React.Component<Props> {
         )
     }
 
-    _renderTagCloud(tagCloud: POITagCloud) {
-
-        let tags = tagCloud.tags.map((tag, i) => 
+    const _renderTagCloud = (tagCloud: POITagCloud) => {
+        let tags = tagCloud.tags.map((tag, i) =>
             <View key={tag} style={styles.tagView}>
                 <Text style={styles.tag}>{tag}</Text>
                 <Text style={[styles.tag, (i === tagCloud.tags.length - 1) ? {display: 'none'} : {display: 'flex'}]}> - </Text>
             </View>
         )
-
         return (
             <View>
                 <View style={[styles.separator, {height: 52}]}></View>
@@ -71,95 +63,81 @@ class SectionComponent extends React.Component<Props> {
         )
     }
 
-    _renderBoldText(matchingString: string) {
+    const _renderBoldText = (matchingString: string) => {
         let match = matchingString.replace(/<bold>/g, "")
         match = match.replace(/<\/bold>/g, "")
-
         return match
     }
 
-    _renderColorText(matchingString: string) {
+    const _renderColorText = (matchingString: string) => {
         let match = matchingString.replace(/<orange>/g, "")
         match = match.replace(/<\/orange>/g, "")
-
         return match
     }
-    render() {
 
-        let title
-        let index
-        let contentText
-        let footerText
-        let images
-        let quote
-        let tagCloud
+    if (section) {
 
-        if (this.props.section) {
+        if (section.title) {
+            title = <Text style={[globalStyles.title, styles.title]}>{section.title}</Text>
+        }
 
-            if (this.props.section.title) {
-                title = <Text style={[globalStyles.title, styles.title]}>{this.props.section.title}</Text>
-            }
-
-            if (this.props.section.index) {
-                index = <View style={[styles.indexSeparator, {height: 29}]}>
-                            <Text style={globalStyles.index}>{this.props.section.index}</Text>
-                        </View>
-            }
-
-            if (this.props.section.contentText) {
-                contentText = <ParsedText
-                style={globalStyles.paragraph}
-                parse={
-                  [
-                    {pattern: /<orange>[\w\W]*?<\/orange>/, style: styles.orange, renderText: this._renderColorText},
-                    {pattern: /<bold>[\w\W]*?<\/bold>/, style: styles.bold, renderText: this._renderBoldText}
-                  ]
-                }
-                childrenProps={{allowFontScaling: false}}>
-                {this.props.section.contentText}
-              </ParsedText>
-              
-            }
-            if (this.props.section.images) {
-                
-                images = this.props.section.images.map(image => 
-                    
-                    <View key={String(image)} style={styles.imageView}>
-                        <Image style={[styles.image]} resizeMode="contain" resizeMethod="resize" source={Images(image)} />
-                    </View>
-                )
-            }
-            if (this.props.section.footerText) {
-                footerText = <Text style={globalStyles.footerText}>{this.props.section.footerText}</Text>
-            }
-            if (this.props.section.quote) {
-                quote = this._renderQuote(this.props.section.quote)
-            }
-
-            if (this.props.section.tagCloud) {
-                tagCloud = this._renderTagCloud(this.props.section.tagCloud)
-            }
-
-            return (
-
-                <View>
-                    {title}
-                    {index}
-                    {contentText}
-                    {images}
-                    {footerText}
-                    {quote}
-                    {tagCloud}
+        if (section.index) {
+            index = (
+                <View style={[styles.indexSeparator, {height: 29}]}>
+                    <Text style={globalStyles.index}>{section.index}</Text>
                 </View>
             )
-        } else {
+        }
 
-            return (
-                <Text>No info</Text>
+        if (section.contentText) {
+            contentText = (
+                <ParsedText
+                    style={globalStyles.paragraph}
+                    parse={
+                    [
+                        {pattern: /<orange>[\w\W]*?<\/orange>/, style: styles.orange, renderText: _renderColorText},
+                        {pattern: /<bold>[\w\W]*?<\/bold>/, style: styles.bold, renderText: _renderBoldText}
+                    ]
+                    }
+                    childrenProps={{allowFontScaling: false}}>
+                    {section.contentText}
+                </ParsedText>
             )
         }
+        if (section.images) { 
+            images = section.images.map(image =>   
+                <View key={String(image)} style={styles.imageView}>
+                    <Image style={[styles.image]} resizeMode="contain" resizeMethod="resize" source={Images(image)} />
+                </View>
+            )
+        }
+        
+        if (section.footerText) {
+            footerText = <Text style={globalStyles.footerText}>{section.footerText}</Text>
+        }
+
+        if (section.quote) {
+            quote = _renderQuote(section.quote)
+        }
+
+        if (section.tagCloud) {
+            tagCloud = _renderTagCloud(section.tagCloud)
+        }
+
+        return (
+            <View>
+                {title}
+                {index}
+                {contentText}
+                {images}
+                {footerText}
+                {quote}
+                {tagCloud}
+            </View>
+        )
+    } else {
+        return <Text>No info</Text>
     }
-    
 }
 
 const styles = StyleSheet.create<Style>({

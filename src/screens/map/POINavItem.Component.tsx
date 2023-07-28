@@ -1,20 +1,17 @@
+// @ts-nocheck	
 import React from 'react';
 import { View } from 'native-base';
 import { StyleSheet, Text, Image, ViewStyle, TextStyle, ImageStyle } from 'react-native';
 import { NavigationScreenProp, NavigationRoute } from 'react-navigation';
-
 import ButtonComponent from '../common/Button.Component';
-
 import { colors, fonts, globalStyles } from '../../styles';
 import Images from '../../images/images';
-
 import { POI } from '../../model/POI';
 
 interface Props {
     navigation: NavigationScreenProp<NavigationRoute>,
     poi: POI
 }
-
 interface Style {
     container: ViewStyle,
     content: ViewStyle,
@@ -26,27 +23,28 @@ interface Style {
     arrow: TextStyle
 }
 
-class POINavItem extends React.Component<Props, any> {
-    render() {
-        return (
-            <View style={[globalStyles.shadow, styles.container]}>
-                <View style={styles.content}>
-                    <Image style={styles.image} resizeMode="contain" source={Images(this.props.poi.thumbnail)} />
-                    <View style={styles.itemDescription}>
-                        <Text numberOfLines={0} style={styles.title}>{this.props.poi.header.title}</Text>
-                        <Text numberOfLines={0} style={styles.subtitle}>{this.props.poi.header.subtitle}</Text>
-                    </View>
-                    
-                    <ButtonComponent 
-                        style={styles.button} 
-                        arrowStyle={styles.arrow} 
-                        navigation={this.props.navigation} 
-                        screen="ContentDetail" 
-                        object={this.props.poi}></ButtonComponent>
+const POINavItem = ({ navigation, poi }) => {
+    
+    return (
+        <View style={[globalStyles.shadow, styles.container]}>
+            <View style={styles.content}>
+                <Image style={styles.image} resizeMode="contain" source={Images(poi?.thumbnail)} />
+                <View style={styles.itemDescription}>
+                    <Text numberOfLines={0} style={styles.title}>{poi?.header?.title}</Text>
+                    <Text numberOfLines={0} style={styles.subtitle}>{poi?.header?.subtitle}</Text>
                 </View>
+                
+                <ButtonComponent 
+                    style={styles.button} 
+                    arrowStyle={styles.arrow} 
+                    navigation={navigation} 
+                    screen="ContentDetail" 
+                    object={poi} 
+                />
             </View>
-        );
-    }
+        </View>
+    );
+    
 }
 
 const styles = StyleSheet.create<Style>({

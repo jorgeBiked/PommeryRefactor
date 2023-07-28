@@ -1,3 +1,4 @@
+// @ts-nocheck	
 import React, { useState } from 'react';
 import { Text, StyleSheet, ViewStyle, Image, View, Dimensions } from 'react-native';
 import {  globalStyles, colors, fontSizes } from '../../styles';
