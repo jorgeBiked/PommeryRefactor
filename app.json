@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AwesomeProjectPommery",
-    "slug": "AwesomeProject",
+    "name": "Pommery",
+    "slug": "Pommery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,14 +9,14 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kaijordi2.AwesomeProject",
+      "bundleIdentifier": "com.pommery.PommeryProject",
       "requireFullScreen": true
     },
     "android": {
@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.kaijordi2.AwesomeProject"
+      "package": "com.pommery.PommeryProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"

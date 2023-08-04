@@ -1,6 +1,9 @@
 // @ts-nocheck	
 import React, { useEffect } from 'react';
-import { Text, StyleSheet, View, ViewStyle, TextStyle, ScrollView, Image, TouchableOpacity, BackHandler, StatusBar, Platform } from 'react-native';
+import { 
+    Text, StyleSheet, View, ViewStyle, TextStyle, ScrollView,
+    TouchableOpacity, BackHandler, Image,
+} from 'react-native';
 
 import {
   NavigationScreenProp,
@@ -55,7 +58,7 @@ const TermsComponent = ({ navigation }) => {
         BackHandler.addEventListener('hardwareBackPress', handleBackButton)
         return () => BackHandler.removeEventListener('hardwareBackPress', handleBackButton)
     },[]);
-  
+
     return (
         <View style={styles.container as ViewStyle}>
             <Text>{'Teeeerms91'}</Text>

@@ -25,7 +25,10 @@ function ProfileScreen({ navigation }) {
 function AppNavigator() {
   return (
       <Stack.Navigator
-        initialRouteName="IntroComponent"
+        initialRouteName="TermsComponent"
+        screenOptions={{
+          headerShown: false
+        }}
       >
         <Stack.Screen name="TermsComponent" component={TermsComponent} />
         <Stack.Screen name="IntroComponent" component={IntroComponent} />

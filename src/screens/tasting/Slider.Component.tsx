@@ -62,66 +62,6 @@ const SliderComponent = ({ images }) => {
     
 }
 
-// class SliderComponent extends React.Component<Props, State> {
-    
-//     constructor(props: Props) {
-//         super(props)
-
-//         this.state = {
-//             activeSlide: 0
-//         }
-//     }
-
-//     _renderItem ({item}) {
-//         return (
-//             <View style={styles.image}>
-//                 <Image style={styles.image} source={Images(item)} resizeMode="contain"/>
-//             </View>
-//         )
-//     }
-
-//     render() {
-//         let i: number = 0
-
-//         if (this.props.images) {
-
-//             let pagination = <Pagination
-//                 dotsLength={this.props.images.length}
-//                 activeDotIndex={this.state.activeSlide}
-//                 containerStyle={[styles.paginationContainer]}
-//                 dotStyle={styles.dotStyle}
-                
-//                 inactiveDotOpacity={0.2}
-//                 inactiveDotScale={1}
-//             />
-
-//             return (
-//                 <View>
-//                     { pagination }
-//                     <Carousel
-//                     ref={(c) => { this._carousel = c; }}
-//                     data={this.props.images}
-//                     renderItem={this._renderItem}
-//                     sliderWidth={300}
-//                     itemWidth={300}
-//                     containerCustomStyle={styles.slider}
-//                     onSnapToItem={(index) => this.setState({ activeSlide: index }) }
-//                     />
-                    
-//                 </View>
-
-//             )
-//         } else {
-
-//             return (
-//                 <Text style={[globalStyles.title]}>No info</Text>
-//             )
-//         }
-//     }
-    
-// }
-
-
 const styles = StyleSheet.create<Style>({
     slider: {
         alignSelf: 'center',

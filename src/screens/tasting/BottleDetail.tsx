@@ -59,7 +59,7 @@ const BottleDetail = ({ navigation, route }) => {
                     </ParsedText>
                     { bootle?.sections?.map(section => <SectionComponent key={section.thumbnail} section={section} /> )}
                     <TouchableOpacity style={styles.closeButtonView} onPress={close}>
-                        <AntDesign name="close" size={24} color={colors.secondaryColor} />
+                        <AntDesign name="close" size={30} color={colors.secondaryColor} />
                     </TouchableOpacity>
                 </ScrollView>
             </View>
@@ -72,7 +72,8 @@ const BottleDetail = ({ navigation, route }) => {
 const styles = StyleSheet.create<Style>({
     bg: {
         flex: 1,
-        backgroundColor: colors.primaryBg
+        backgroundColor: colors.primaryBg,
+        paddingTop: 60,
     },
     bgWhite: {
         backgroundColor: colors.white,
@@ -126,9 +127,8 @@ const styles = StyleSheet.create<Style>({
     },
     closeButtonView: {
         position: 'absolute',
-        alignSelf: 'flex-end',
-        right: -20,
-        top: 30,
+        right: 0,
+        top: 10,
         width: 50,
         height: 50,
     },

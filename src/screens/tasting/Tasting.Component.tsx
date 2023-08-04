@@ -1,7 +1,8 @@
 // @ts-nocheck	
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { 
-  Text, StyleSheet, ViewStyle, TextStyle, Image, TouchableWithoutFeedback, View, ScrollView, Alert,
+  Text, StyleSheet, ViewStyle, TextStyle, Image, TouchableWithoutFeedback, 
+  View, ScrollView, Dimensions, TouchableOpacity,
 } from 'react-native';
 
 import {
@@ -13,11 +14,12 @@ import { colors, fontSizes, fonts } from '../../styles';
 import MenuComponent from '../common/Menu.Component';
 import ParsedText from 'react-native-parsed-text';
 import { tastingPage } from '../../utilities/Constants';
-import { Video } from 'expo-av';
+import { Video, ResizeMode } from 'expo-av';
 import { bootle1, bootle2, bootle3, bootle4, bootle5 } from './resources/tasting';
 import { Bootle } from '../../model/Bootle';
 import Images from '../../images/images';
 import { locale } from '../../utilities/Strings';
+import * as ScreenOrientation from 'expo-screen-orientation';
 const videoURL = '../../videos/tasting.mp4';
 
 interface Props {
@@ -51,6 +53,7 @@ interface Style {
 const TastingComponent = ({ navigation }) => {
 
   const videoRef = useRef(null);
+  const [fullVideo, setFullVideo] = useState(false);
   const renderText = (matchingString: string) => {
     let html = matchingString.replace(/<bold>/g, "");
     html = html.replace(/<\/bold>/g, "");
@@ -61,7 +64,24 @@ const TastingComponent = ({ navigation }) => {
   }
 
   const playVideo = async () => {
-    videoRef?.current?.presentFullscreenPlayer();
+    setFullVideo(true);
+  }
+
+  useEffect(() => {
+    fullVideo && videoRef?.current?.presentFullscreenPlayer();
+  },[fullVideo]);
+
+  const setOrientation = () => {
+    if (Dimensions.get('window').height > Dimensions.get('window').width) {
+      //Device is in portrait mode, rotate to landscape mode.
+      ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
+    }
+    else {
+      //Device is in landscape mode, rotate to portrait mode.
+      ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+      videoRef?.current?.pauseAsync();
+      setFullVideo(false);
+    }
   }
     
   return (
@@ -125,29 +145,29 @@ const TastingComponent = ({ navigation }) => {
         <Text style={styles.text}>{locale('tasting3')}</Text>
 
         {/* Image that represents the video before starting */}
-        <TouchableWithoutFeedback onPress={playVideo}>
+        <TouchableOpacity onPress={playVideo}>
           <View style={styles.videoThumbnailView}>
             <Image style={[styles.thumbnail, { display: 'flex' }]} resizeMode="contain" source={Images('video_bg')} />
           </View>
-        </TouchableWithoutFeedback>
+        </TouchableOpacity>
         
       </ScrollView>
       
-      <MenuComponent active={tastingPage} expanded={true} tutorial={false} navigation={navigation}></MenuComponent>
+      <MenuComponent active={tastingPage} expanded={true} tutorial={false} navigation={navigation} />
             
       <Video
-        style={styles.videoThumbnailView}
         ref={videoRef}
         source={require(videoURL)}
         rate={1.0}
         volume={1.0}
         isMuted={false}
-        resizeMode={Video.RESIZE_MODE_CONTAIN}
-        shouldPlay
+        resizeMode={ResizeMode.CONTAIN}
         useNativeControls
-        style={{ width: 0, height: 0 }}
+        shouldPlay
+        style={ !fullVideo ? { width: 0, height: 0 } : {} }
+        onFullscreenUpdate={setOrientation}
       />
-              
+
     </View>
   )
 }
@@ -196,14 +216,7 @@ const styles = StyleSheet.create<Style>({
     width: '100%',
     backgroundColor: 'black',
   },
-  videoView: {
-    position: 'absolute',
-    right: 0,
-    top: 0,
-    bottom: 0,
-    left: 0,
-    flex: 1,
-  },
+  videoView: {},
   greenFlower: {
     position: 'absolute',
     top: 0,

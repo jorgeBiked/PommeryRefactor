@@ -113,9 +113,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace 'com.kaijordi2.AwesomeProject'
+    namespace 'com.pommery.PommeryProject'
     defaultConfig {
-        applicationId 'com.kaijordi2.AwesomeProject'
+        applicationId 'com.pommery.PommeryProject'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

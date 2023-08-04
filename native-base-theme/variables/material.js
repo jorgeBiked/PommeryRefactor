@@ -34,7 +34,7 @@ export default {
   badgePadding: 0,
 
   // Button
-  // btnFontFamily: "Roboto",
+  btnFontFamily: "Roboto",
   btnFontFamily: "System",
   btnDisabledBg: "#b5b5b5",
   buttonPadding: 6,
@@ -123,7 +123,7 @@ export default {
 
   // Font
   DefaultFontSize: 16,
-  // fontFamily: "Roboto",
+  fontFamily: "Roboto",
   fontFamily: "System",
   fontSizeBase: 15,
   get fontSizeH1() {
@@ -250,7 +250,7 @@ export default {
   },
 
   // Title
-  // titleFontfamily: "Roboto",
+  titleFontfamily: "Roboto",
   titleFontfamily: "System",
   titleFontSize: 19,
   subTitleFontSize: 14,
